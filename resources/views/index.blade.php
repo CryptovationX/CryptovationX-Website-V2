@@ -23,10 +23,11 @@
     @include ('page.robot')
     @include ('page.howitworks')
     @include ('page.blog')
-    {{-- @include ('page.timeline') --}}
+    @include ('page.timeline')
     @include ('page.press')
     @include ('page.partner')
     @include ('page.teammain')
+    @include ('page.teammore')
     @include ('page.advisor')
     @include ('layout.footer')
     
