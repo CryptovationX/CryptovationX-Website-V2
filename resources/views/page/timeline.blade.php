@@ -14,7 +14,7 @@
                     
                     <li class="timeline-inverted">
                         <div class="timeline-image scaleReveal">
-                            <img alt="" class="img-circle img-responsive rounded-circle img-fluid" src="images/2017.jpg">
+                            <img alt="" class="img-circle img-responsive rounded-circle img-fluid" src="https://s3-ap-southeast-1.amazonaws.com/cryptovationx/public/2017.jpg">
                         </div>
                         <div class="timeline-panel rightReveal">
                             <div class="timeline-heading">
@@ -41,7 +41,7 @@
                     <!-- Item 3 -->
                     <li>
                         <div class="timeline-image scaleReveal">
-                            <img alt="" class="img-circle img-responsive rounded-circle img-fluid" src="images/2018.jpg">
+                            <img alt="" class="img-circle img-responsive rounded-circle img-fluid" src="https://s3-ap-southeast-1.amazonaws.com/cryptovationx/public/2018.jpg">
                         </div>
                         <div class="timeline-panel leftReveal">
                             <div class="timeline-heading">
@@ -85,7 +85,7 @@
                     <!-- Item 4 -->
                     <li class="timeline-inverted">
                         <div class="timeline-image scaleReveal">
-                            <img alt="" class="img-circle img-responsive rounded-circle img-fluid" src="images/2019.jpg">
+                            <img alt="" class="img-circle img-responsive rounded-circle img-fluid" src="https://s3-ap-southeast-1.amazonaws.com/cryptovationx/public/2019.jpg">
                         </div>
                         <div class="timeline-panel rightReveal">
                             <div class="timeline-heading">
@@ -116,7 +116,7 @@ Conference
                     <!-- Item 3 -->
                     <li>
                         <div class="timeline-image scaleReveal">
-                            <img alt="" class="img-circle img-responsive rounded-circle img-fluid round-circle" src="images/2020.jpg">
+                            <img alt="" class="img-circle img-responsive rounded-circle img-fluid round-circle" src="https://s3-ap-southeast-1.amazonaws.com/cryptovationx/public/2020.jpg">
                         </div>
                         <div class="timeline-panel leftReveal">
                             <div class="timeline-heading">

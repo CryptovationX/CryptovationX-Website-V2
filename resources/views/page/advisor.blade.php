@@ -12,7 +12,7 @@
                     <li>
                         <div class="team-member-box  scaleReveal">
                             <div class="team-image-wrapper">
-                                <img src="images/teams/Rajesh.png" class="mb-3 img-card-member rounded-circle">
+                                <img src="https://s3-ap-southeast-1.amazonaws.com/cryptovationx/public/Rajesh.png" class="mb-3 img-card-member rounded-circle">
                             </div>
                             <h4>Rajesh Nair</h4>
                             <p>Academic Advisor</p>
@@ -31,7 +31,7 @@
                         <div class="team-member-box  scaleReveal">
                             <div class="team-image-wrapper">
 
-                                <img src="images/teams/Jason.png" class="mb-3 img-card-member rounded-circle">
+                                <img src="https://s3-ap-southeast-1.amazonaws.com/cryptovationx/public/Jason.png" class="mb-3 img-card-member rounded-circle">
                             </div>
                             <h4>Jason Corbett</h4>
                             <p>Legal Advisor</p>
@@ -48,7 +48,7 @@
                             <div class="team-image-wrapper">
                                 <span class="team-image-hover">
 
-                                    <img src="images/teams/Justin.png" class="mb-3 img-card-member rounded-circle">
+                                    <img src="https://s3-ap-southeast-1.amazonaws.com/cryptovationx/public/Justin.png" class="mb-3 img-card-member rounded-circle">
                             </div>
                             <h4>Justin Wright</h4>
                             <p>Strategy Advisor</p>
@@ -64,7 +64,7 @@
                         <div class="team-member-box  scaleReveal">
                             <div class="team-image-wrapper">
 
-                                <img src="images/teams/Shahar.png" class="mb-3 img-card-member rounded-circle">
+                                <img src="https://s3-ap-southeast-1.amazonaws.com/cryptovationx/public/Shahar.png" class="mb-3 img-card-member rounded-circle">
                             </div>
                             <h4>Shahar Rabin</h4>
                             <p>Technology Advisor</p>
@@ -80,7 +80,7 @@
                         <div class="team-member-box  scaleReveal">
                             <div class="team-image-wrapper">
 
-                                <img src="images/teams/Sree.png" class="mb-3 img-card-member rounded-circle">
+                                <img src="https://s3-ap-southeast-1.amazonaws.com/cryptovationx/public/Sree.png" class="mb-3 img-card-member rounded-circle">
                             </div>
                             <h4>Sree Murthi</h4>
                             <p>Technology Advisor</p>
@@ -97,7 +97,7 @@
                         <div class="team-member-box  scaleReveal">
                             <div class="team-image-wrapper">
 
-                                <img src="images/teams/Joshua.png" class="mb-3 img-card-member rounded-circle">
+                                <img src="https://s3-ap-southeast-1.amazonaws.com/cryptovationx/public/Joshua.png" class="mb-3 img-card-member rounded-circle">
                             </div>
                             <h4>Joshua Ho </h4>
                             <p>Business Advisor</p>
@@ -113,7 +113,7 @@
                         <div class="team-member-box  scaleReveal">
                             <div class="team-image-wrapper">
 
-                                <img src="images/teams/Arc.png" class="mb-3 img-card-member rounded-circle">
+                                <img src="https://s3-ap-southeast-1.amazonaws.com/cryptovationx/public/Arc.png" class="mb-3 img-card-member rounded-circle">
                             </div>
                             <h4>Arch Wongchindawest </h4>
                             <p>Social Advisor</p>
@@ -129,7 +129,7 @@
                         <div class="team-member-box scaleReveal">
                             <div class="team-image-wrapper">
 
-                                <img src="images/teams/Woon.png" class="mb-3 img-card-member rounded-circle">
+                                <img src="https://s3-ap-southeast-1.amazonaws.com/cryptovationx/public/Woon.png" class="mb-3 img-card-member rounded-circle">
                             </div>
                             <h4>Chaiwut Kovitchindachai</h4>
                             <p>Strategy Advisor</p>

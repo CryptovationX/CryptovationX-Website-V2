@@ -12,7 +12,7 @@
                     <li>
                         <div class="team-member-box">
                             <div class="team-image-wrapper">
-                                <img src="images/teams/Pondet.png" class="mb-3 img-card-member rounded-circle">
+                                <img src="https://s3-ap-southeast-1.amazonaws.com/cryptovationx/public/Pondet.png" class="mb-3 img-card-member rounded-circle">
                             </div>
                             <h4>Pondet Ananchai</h4>
                              <p class=" descipt-people descipt-people title-color">Chief Executive Officer</p>
@@ -32,7 +32,7 @@
                     <li>
                         <div class="team-member-box  scaleReveal">
                             <div class="team-image-wrapper">
-                                <img src="images/teams/Ran.png" class="mb-3 img-card-member rounded-circle">
+                                <img src="https://s3-ap-southeast-1.amazonaws.com/cryptovationx/public/Ran.png" class="mb-3 img-card-member rounded-circle">
                             </div>
                             <h4>Niran Pravithana</h4>
                             <p class="descipt-people descipt-people title-color">Chief Innovation Officer</p>
@@ -50,7 +50,7 @@
                     <li>
                         <div class="team-member-box  scaleReveal">
                             <div class="team-image-wrapper">
-                                <img src="images/teams/Richart.png" class="mb-3 img-card-member rounded-circle">
+                                <img src="https://s3-ap-southeast-1.amazonaws.com/cryptovationx/public/Richart.png" class="mb-3 img-card-member rounded-circle">
                             </div>
                             <h4>Richard Cayne</h4>
                             <p class=" descipt-people descipt-people title-color">Chief Financial Officer </p>
@@ -66,7 +66,7 @@
                     <li>
                         <div class="team-member-box  scaleReveal">
                             <div class="team-image-wrapper">
-                                <img src="images/teams/Eric.png" class="mb-3 img-card-member rounded-circle">
+                                <img src="https://s3-ap-southeast-1.amazonaws.com/cryptovationx/public/Eric.png" class="mb-3 img-card-member rounded-circle">
                             </div>
                             <h4>Erke Huang
                             </h4>
@@ -84,7 +84,7 @@
                     <li>
                         <div class="team-member-box scaleReveal">
                             <div class="team-image-wrapper">
-                                <img src="images/teams/June.png" class="mb-3 img-card-member rounded-circle">
+                                <img src="https://s3-ap-southeast-1.amazonaws.com/cryptovationx/public/June.png" class="mb-3 img-card-member rounded-circle">
                             </div>
                             <h4>June Thatsanasateankit</h4>
                             <p class=" descipt-people title-color">Cheif Marketing Officer </p>

@@ -13,7 +13,7 @@
                 <h3>Arbi</h3>
                 <div class="text-center">
                     <a href="https://arbot.cryptovation.co/" target="_blank">
-                        <img src="images/Arbi.png" class="img-fluid robot" alt="Responsive image">
+                        <img src="https://s3-ap-southeast-1.amazonaws.com/cryptovationx/public/Arbi.png" class="img-fluid robot" alt="Responsive image">
                     </a>
                 </div>
                 <h2 class="robot-text">Arbitrage Trading Robo-advisory</h2>
@@ -28,7 +28,7 @@
                 <h3>Specto</h3>
                 <div class="text-center">
                     <a href="http://ava.fund/" target="_blank">
-                        <img src="images/Specto.png" class="img-fluid robot" alt="Responsive image">
+                        <img src="https://s3-ap-southeast-1.amazonaws.com/cryptovationx/public/Specto.png" class="img-fluid robot" alt="Responsive image">
                     </a>
                 </div>
                 <h2 class="robot-text">Speculative Trading Robo-advisory</h2>
@@ -42,7 +42,7 @@
             <div class="col-sm-4 col-md-4 col-lg-4 text-center pt10 pb10 no-borsder">
                 <h3>Broca</h3>
                 <div class="text-center">
-                    <img src="images/Broca.png" class="img-fluid robot" alt="Responsive image">
+                    <img src="https://s3-ap-southeast-1.amazonaws.com/cryptovationx/public/Broca.png" class="img-fluid robot" alt="Responsive image">
                 </div>
                 <h2 class="robot-text">Brokerage Robo-advisory</h2>
                 <p>Broca is a Brokerage Robo-advisor. She will review and suggest potential ICO investment opportunities and
