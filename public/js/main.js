@@ -1,27 +1,56 @@
+var scroll, heightTop = 5;
+
 $(window).scroll(function () {
 
-    var scroll = $(window).scrollTop();
+    scroll = $(window).scrollTop();
 
-    if (scroll >= 5) {
-        $(".navbar-default").css({
-            background: '#fff',
-            padding: '0'
-        });
-        $(".navbar-default .navbar-nav>li>a").css('color', '#000');
-        $(".navbar-brand-mat>img").attr("src", "https://s3-ap-southeast-1.amazonaws.com/cryptovationx/public/logos/Token.png");
-        $(".navbar-default .navbar-toggle .icon-bar").css("background-color", "#3498db");
-
-
-
-
-        // $(".navbar-default").css('border-bottom','0.5px solid #090c1b');
-    } else {
-        $(".navbar-default, .navbar-default .navbar-nav>li>a").removeAttr('style');
+    if (scroll < heightTop) {
         $(".navbar-brand-mat>img").attr("src", "https://s3-ap-southeast-1.amazonaws.com/cryptovationx/public/logos/Token3.png");
-        $(".navbar-default .navbar-toggle .icon-bar").css("background-color", "#fff");
+        $(".navbar-default ").removeClass('navbar-light').addClass('navbar-dark');;
 
+        if (checkMenuOpen()) {
+            $(".navbar-default").removeClass('bg-white');
 
-        // $(".navbar-default").css('none');
+        } else {
+            $(".navbar-default ").addClass('navbar-light').removeClass('navbar-dark');
+        }
+
+    } else {
+
+        $(".navbar-default").addClass('bg-white').addClass('navbar-light').removeClass('navbar-dark');
+        $(".navbar-brand-mat>img").attr("src", "https://s3-ap-southeast-1.amazonaws.com/cryptovationx/public/logos/Token.png");
+        if (!checkMenuOpen()) {
+            $(".navbar-default").addClass('bg-white');
+        }
     }
 
+
+
 });
+
+$(function () {
+    $('button[data-target="#navbar-top-toggle"]').on('click', function () {
+        if (scroll < heightTop) {
+            if (checkMenuOpen()) {
+                $(".navbar-default").addClass('bg-white').addClass('navbar-light').removeClass('navbar-dark');
+            } else {
+                $(".navbar-default").removeClass('bg-white').removeClass('navbar-light').addClass('navbar-dark');
+            }
+        }
+
+    });
+
+    $('.scroll-top').on('click', function () {
+        $("html, body").animate({
+            scrollTop: 0
+        }, 1000);
+    });
+
+});
+
+function checkMenuOpen() {
+    if (!$('.navbar-collapse').hasClass('show')) {
+        return true;
+    }
+    return false;
+}

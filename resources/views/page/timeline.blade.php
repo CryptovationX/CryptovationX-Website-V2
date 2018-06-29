@@ -1,60 +1,17 @@
-<!-- Begin Timeline -->
+
 <section id="timeline" class="background2 section-padding-top">
     <div class="container">
         <div class="row">
-            <div class="col-xs-12 section-title text-center top-x bottomReveal">
+            <div class="col-12 section-title text-center top-x bottomReveal">
                 <h2>Timeline</h2>
                 <span class="section-divider"></span>
             </div>
-            <!-- /.column -->
         </div>
-        <!-- /.row -->
         <div class="row">
             <div class="col-lg-12 scaleReveal text-center">
                 <ul class="timeline pb80">
 
-                    <!-- Item 1 -->
-                    <!-- <li>
-                        <div class="timeline-image scaleReveal">
-                            <img alt="" class="img-circle img-responsive rounded-circle img-fluid" src="images/2016.jpg">
-                        </div>
-                        <div class="timeline-panel leftReveal">
-                            <div class="timeline-heading">
-                                <h5 class="heading-1 mb15">2016</h5>
-                                <h4 class="subheading">Business Model Searching</h4>
-                            </div>
-                            <div class="visible-xs-block timeline-body timeline-text ">
-                                <ul class="timeline-no-padding">
-                                    <li>
-                                        <strong>Q1 :</strong>Blockchain Marketing Research </li>
-                                    <li>
-                                        <strong>Q2 :</strong>Blockchain Remittance Business Pilot </li>
-                                    <li>
-                                        <strong>Q3 :</strong>Blockchain Remittance R&D</li>
-                                    <li>
-                                        <strong>Q4 :</strong>Final List in Techsauce Global Summit </li>
-                                </ul>
-                            </div>
-                            <div class="timeline-body timeline-text hidden-xs">
-                                <ul>
-                                    <li>Blockchain Marketing Research :
-                                        <strong>Q1</strong>
-                                    </li>
-                                    <li>Blockchain Remittance Business Pilot :
-                                        <strong>Q2</strong>
-                                    </li>
-                                    <li>Blockchain Remittance R&D :
-                                        <strong>Q3</strong>
-                                    </li>
-                                    <li>Final List in Techsauce Global Summitt :
-                                        <strong>Q4</strong>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </li> -->
-
-                    <!-- Item 2 -->
+                    
                     <li class="timeline-inverted">
                         <div class="timeline-image scaleReveal">
                             <img alt="" class="img-circle img-responsive rounded-circle img-fluid" src="images/2017.jpg">

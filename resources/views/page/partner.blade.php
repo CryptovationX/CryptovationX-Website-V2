@@ -1,4 +1,4 @@
-<section id="partner">
+<section id="part">
     <div class="container section">
         <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12  text-center mb20">
@@ -60,7 +60,7 @@
         </div>
         <br>
         <div class="row ">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-18 text-center partner-x">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-18 text-center">
                                     <h2>Social Partners</h2>
                 <span class="section-divider "></span>
             </div>
