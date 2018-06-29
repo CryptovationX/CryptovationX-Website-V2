@@ -6,17 +6,21 @@
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
       aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
+      <span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar" ></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
     </button>
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item active">
-          <a class="nav-link mr10 ml10 nav-front" href="#home">Home
+          <a class="nav-link mr10 ml10 nav-front" href="#">Home
             <span class="sr-only">(current)</span>
           </a>
         </li>
         <li class="nav-item active">
-          <a class="nav-link mr10 ml10 nav-front" href="#">White Paper
+        <a class="nav-link mr10 ml10 nav-front" href="{{ asset('whitepaper.pdf') }}" target="_blank" >White Paper
             <span class="sr-only">(current)</span>
           </a>
         </li>

@@ -27,3 +27,7 @@ $(window).scroll(function() {
     }
 
 });
+
+$('button[data-target="#navbar-top-toggle"]').on('click',function() {
+    $('.navbar.navbar-default').toggleClass('bg-navbar-toggle');
+});

@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300');
-
 body {
     font-family: 'Open Sans', sans-serif !important;
 }
@@ -25,10 +24,10 @@ p {
 }
 
 .header-bg {
-        background-image: url(../images/pinbg.jpg);
-        background-color: #090c1b;
-        background-repeat: no-repeat;
-        background-size:cover;
+    background-image: url(../images/pinbg.jpg);
+    background-color: #090c1b;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .white-text {
@@ -79,8 +78,8 @@ footer a .btn-x-footer {
     font-size: 14px;
     padding: 8px 25px;
     background-color: transparent;
-    color: #000;
-    border: 1px solid #000;
+    color: #676464;
+    border: 1px solid #676464;
 }
 
 .btn-x:hover {
@@ -104,6 +103,29 @@ footer a .btn-x-footer {
     color: white;
     border: 1px solid #fff;
 }
+
+.btn-x-x {
+    margin: 20px 0px;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 1rem;
+    font-size: 14px;
+    padding: 8px 25px;
+    background-color: transparent;
+    color: #676464;
+    border: 1px solid #676464;
+}
+
 
 .team-member-box {
     text-align: center;
@@ -152,7 +174,6 @@ footer a .btn-x-footer {
 
 @media screen and (min-width: 200px) {
     .card-member li {
-        
         width: 49%;
         justify-content: center;
         display: inline-grid;
@@ -161,7 +182,6 @@ footer a .btn-x-footer {
 
 @media screen and (min-width: 400px) {
     .card-member li {
-        
         width: 49%;
         justify-content: center;
         display: inline-grid;
@@ -205,7 +225,7 @@ footer a .btn-x-footer {
     margin: 20px 30px;
 }
 
-.partner-x img{
+.partner-x img {
     width: 150px;
     opacity: 0.7;
     display: inline-block;
@@ -228,11 +248,11 @@ footer a .btn-x-footer {
     margin-top: 50px;
 }
 
-.mb50{
+.mb50 {
     margin-bottom: 50px;
 }
 
-.mb100{
+.mb100 {
     margin-bottom: 100px;
 }
 
@@ -240,9 +260,9 @@ footer a .btn-x-footer {
     background-color: #fff;
 }
 
-.navbar-shadow{
+.navbar-shadow {
     box-shadow: 5px 9px 25px 0 rgba(0, 0, 0, 0.05);
-  }
+}
 
 .navbar-brand-mat {
     float: left;
@@ -251,7 +271,6 @@ footer a .btn-x-footer {
     font-size: 18px;
     line-height: 20px;
 }
-
 
 .navbar-default {
     font-family: 'Open Sans', sans-serif !important;
@@ -294,8 +313,49 @@ footer a .btn-x-footer {
     background-color: transparent;
 }
 
+
+
+.navbar-toggler {
+    border-radius: 0;
+}
+
+.bg-navbar-toggler {
+    background-color: white !important;
+}
+
+.navbar-default.bg-navbar-toggler .navbar-nav > li > a {
+    color: #777 !important;
+}
+
+.navbar-default .navbar-toggler {
+    border-color: transparent;
+    background-color:transparent;
+}
+
+.navbar-default .navbar-toggler .icon-bar {
+    background-color: #fff;
+}
+
+.navbar-default .navbar-toggler:focus,
+.navbar-default .navbar-toggler:hover {
+    background-color: #7369F9;
+}
+
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+    border-color: #333;
+}
+
+.navbar-default .navbar-toggler  .icon-bar {
+    background-color: #fff;
+}
+
+.navbar-nav {
+    -webkit-backface-visibility: hidden;
+}
+
 .team-member-box h4 {
-    font-size: 18px;
+    font-size: 14px;
 }
 
 .bio {
@@ -308,7 +368,7 @@ footer a .btn-x-footer {
     margin-bottom: 10px;
     width: 60px;
     height: 1px;
-    background-color: #dcd9d9;
+    background-color: #a09e9e;
 }
 
 .robot {
@@ -322,4 +382,8 @@ footer a .btn-x-footer {
 
 .press {
     width: 500px;
+}
+
+.border-image {
+    border-radius: 5px;
 }

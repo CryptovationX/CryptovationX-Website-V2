@@ -1,6 +1,6 @@
 <section id="header">
 <div class="jumbotron header-bg">
-    <div id="particles-js" class=""></div>
+    <div id="particles-js"></div>
     <div class="container">
         <div class="row">
             <div class="col-md-6 col-xl-6 col-sm-6 mt150">
@@ -8,7 +8,7 @@
                 <h3 class="white-text">"The Best Friend for Crypto Investors"</h3>
                 <div class="text-center">
                     <br>
-                    <a class="btn-x" id="White Paper Top" href="#" target="_blank" role="button">Read our White Paper</a>
+                    <a class="btn-x" id="White Paper Top" href="{{ asset('whitepaper.pdf') }}" target="_blank" role="button">Read our White Paper</a>
                 </div>
                 </p>
             </div>

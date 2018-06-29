@@ -15,17 +15,17 @@
             </div>
             <div class="col-sm-4 mt30-xs">
                 <h5 class="heading-1 mb20 what">What is CryptovationX?</h5>
-                <div class="tab-content tab-default tab-default">
-                    <div class="active text-small" id="whitepaper1">
-                        <div class="thumbnail no-margin whitepaper">
-                            <div class="caption">
                                 <p>White Paper</p>
-                                <a class="btn btn-default" id="White Paper ENG" href=" {{ asset('whitepaper.pdf') }} " target="_blank" role="button">English</a>
-                                <a class="btn btn-default" id="White Paper CHI" href=" {{ asset('whitepaper_chi.pdf') }}" role="button">中文</a>
-                                <a class="btn btn-default" id="White Paper JPN" role="button" data-toggle="collapse" href="#WhitepaperJapanese" aria-expanded="false"
+                                <a class="btn-x-x" id="White Paper ENG" href=" {{ asset('whitepaper.pdf') }} " target="_blank" role="button">English</a>
+                                <br>
+                                <a class="btn-x-x" id="White Paper CHI" href=" {{ asset('whitepaper_chi.pdf') }}" role="button">中文</a>
+                                <br>
+                                <a class="btn-x-x" id="White Paper JPN" role="button" data-toggle="collapse" href="#WhitepaperJapanese" aria-expanded="false"
                                     aria-controls="WhitepaperJapanese">日本語</a>
-                                <a class="btn btn-default" id="White Paper KOR" href="#" role="button">한국어</a>
-                                <div class="collapse jp" id="WhitepaperJapanese">
+                                <br>
+                                    <a class="btn-x-x" id="White Paper KOR" href="#" role="button">한국어</a>
+                                <br>
+                                    <div class="collapse jp" id="WhitepaperJapanese">
                                     <br>
                                     <p>仮想通貨クリプトアセット投資に対するロボ・アドバイザープラットフォーム
                                         <br>
@@ -40,9 +40,5 @@
                                     </p>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </div>
 </section>
