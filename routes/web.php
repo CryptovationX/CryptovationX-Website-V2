@@ -18,3 +18,7 @@ Route::get('/', 'PageController@getIndex');
 
 Route::get('/terms-conditions', 'PageController@getTermsandconditions');
 
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
