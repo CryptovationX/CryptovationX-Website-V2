@@ -1,6 +1,6 @@
 
-<section id="timeline" class="background2 section-padding-top">
-    <div class="container">
+<section id="timeline" class=" bg-fix section-padding-top">
+    <div class="container ">
         <div class="row">
             <div class="col-12 section-title text-center top-x bottomReveal">
                 <h2>Timeline</h2>

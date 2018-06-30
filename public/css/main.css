@@ -53,7 +53,7 @@ p {
     padding: .375rem .75rem;
     font-size: 1rem;
     line-height: 1.5;
-    border-radius: 1rem;
+    border-radius: 3rem;
     font-size: 14px;
     padding: 8px 25px;
     background-color: transparent;
@@ -96,7 +96,7 @@ footer a .btn-x-footer {
     padding: .375rem .75rem;
     font-size: 1rem;
     line-height: 1.5;
-    border-radius: 1rem;
+    border-radius: 3rem;
     font-size: 14px;
     padding: 8px 25px;
     background-color: transparent;
@@ -118,7 +118,30 @@ footer a .btn-x-footer {
     padding: .375rem .75rem;
     font-size: 1rem;
     line-height: 1.5;
-    border-radius: 1rem;
+    border-radius: 3rem;
+    font-size: 14px;
+    padding: 8px 25px;
+    background-color: transparent;
+    color: #676464;
+    border: 1px solid #676464;
+}
+
+.btn-x-x:hover {
+    text-decoration: none;
+    margin: 20px 0px;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 3rem;
     font-size: 14px;
     padding: 8px 25px;
     background-color: transparent;
@@ -659,4 +682,27 @@ p.h6 {
 
 .hidden-xs {
     display: none
+}
+
+.whitepaper-btn a {
+    color: #000;
+}
+
+.icon-contact a {
+    color: #a09e9e;
+}
+
+.company a {
+    color: #a09e9e;
+}
+
+.bg-fix {
+    background-image: url(https://s3-ap-southeast-1.amazonaws.com/cryptovationx/public/bgfix.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.bg-cxa {
+    background-image: url(https://s3-ap-southeast-1.amazonaws.com/cryptovationx/public/bgcxa.jpg);
+    background-size: cover;
 }
