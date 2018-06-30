@@ -298,6 +298,14 @@ footer a .btn-x-footer {
     font-size: 12px;
 }
 
+.bio a {
+    color: #000;
+}
+
+.bio a:hover {
+    text-decoration: none;
+}
+
 .section-divider {
     display: inline-block;
     margin-top: 20px;
@@ -705,4 +713,8 @@ p.h6 {
 .bg-cxa {
     background-image: url(https://s3-ap-southeast-1.amazonaws.com/cryptovationx/public/bgcxa.jpg);
     background-size: cover;
+}
+
+.footer-x a {
+    width: 50px;
 }

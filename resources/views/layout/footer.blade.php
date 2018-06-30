@@ -24,8 +24,9 @@
 				<hr>
 				<button type="button" class=" btn-x-x scroll-top" >Up</button>
 				<br>
-                        <a class="company mb20 descipt-people descipt-people bio " href="/terms-conditions">Terms and Conditions</a>
-						<br>
+				<div class="bio">
+                        <a class="company mb20 descipt-people descipt-people " href="/terms-conditions">Terms and Conditions</a>
+					</div>
 						<br>
 				<p class="no-margin copyright">&copy; 2018 Cryptovation. All Right Reserved</p>
 			</div>
