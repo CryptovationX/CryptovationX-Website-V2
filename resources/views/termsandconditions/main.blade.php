@@ -1,7 +1,7 @@
 <!-- Begin Our Process -->
 <div class="container container-fluid background-white mt30 mb20">
-	<div class=" col-xs-12 section-title text-center top-x mt50">
-		<h2 id="about">Terms and Conditions</h2>
+	<div class=" col-xs-12 section-title text-center top-x mt100">
+		<h2 id="about" >Terms and Conditions</h2>
 		<p class="more mt20">Last Revised: [16 June 2018]</p>
 		<span class="section-divider mb15"></span>
 		<br>

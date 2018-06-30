@@ -28,7 +28,12 @@
         </div>
     </div>
     @include ('page.advisor')
+    <a href="https://t.me/joinchat/H2POp0-8T_X5FYBq_qfS6A" target="_blank">
+        <i id="telegram" class="fab fa-telegram-plane fix-contact"></i>
+    </a>
     @include ('layout.footer')
+
+    
     
 </body>
 </html>

@@ -15,8 +15,9 @@
             </div>
             <div class="col-sm-4 mt30-xs wow fadeIn">
                  <h5>What is CryptovationX?</h5>
+                 <br>
                 <div class="whitepaper-btn">
-                    <p>White Paper</p>
+                    <p class="h6">White Paper</p>
                     <a class="btn btn-default" id="White Paper ENG" href=" {{ asset('whitepaper.pdf') }} " target="_blank" role="button">English</a>
                     <a class="btn btn-default" id="White Paper CHI" href=" {{ asset('whitepaper_chi.pdf') }}" target="_blank" role="button">中文</a>
                     <a class="btn btn-default" id="White Paper JPN" role="button" data-toggle="collapse" href="#WhitepaperJapanese" aria-expanded="false" aria-controls="WhitepaperJapanese">日本語</a>
