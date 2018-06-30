@@ -1,5 +1,5 @@
-<section id="howitwork">
-    <div class="container section">
+<section id="howitwork" class="container">
+    <div class="section">
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12">
                 <h2 class="text-center mb20">How It Works</h2>
@@ -7,13 +7,13 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-sm-8">
+            <div class="col-sm-8 wow fadeIn">
                 <h5 class="heading-1 mb20 what">CryptovationX Features</h5>
                 <div class="embed-responsive embed-responsive-16by9">
                     <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/AjfWmyxhfcg" allowfullscreen="" width="300px"></iframe>
                 </div>
             </div>
-            <div class="col-sm-4 mt30-xs">
+            <div class="col-sm-4 mt30-xs wow fadeIn">
                  <h5>What is CryptovationX?</h5>
                 <div class="whitepaper-btn">
                     <p>White Paper</p>

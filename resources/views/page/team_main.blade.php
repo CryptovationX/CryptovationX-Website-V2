@@ -1,5 +1,5 @@
-<section id="team">
-    <div class="container section">
+<section id="team" class="container">
+    <div class="section">
         <div class="row">
             <div class="col-12 text-center mb20">
                 <h2>Management Team</h2>

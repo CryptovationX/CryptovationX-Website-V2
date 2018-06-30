@@ -1,5 +1,6 @@
-<section id="part" class="bg-cxa">
-    <div class="container section">
+<div class="bg-cxa">
+<section id="part" class="container">
+    <div class="section">
         <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12  text-center mb20">
                 <h2>Tech Partners</h2>
@@ -76,3 +77,4 @@
             </div>
         </div>
 </section>
+</div>

@@ -1,6 +1,7 @@
 <!-- Begin Our Process -->
-<div class="container section" id="robot">
-    <div class="col-xs-12 text-center mb20">
+<section class="container">
+<div id="robot">
+    <div class="col-12 text-center mb20">
         <h2 id="about">CryptovationX Robo-advisory Platform</h2>
         <p class="more mt20">iOS and Android mobile application that can "Answer, Assist and Auto-investing" for you!</p>
         <span class="section-divider"></span>   
@@ -9,7 +10,7 @@
 <div id="our-process">
     <div class="container">
         <div class="row">
-            <div class="col-sm-4 col-md-4 col-lg-4 text-center">
+            <div class="col-sm-4 col-md-4 col-lg-4 text-center wow fadeIn">
                 <h3>Arbi</h3>
                 <div class="text-center">
                     <a href="https://arbot.cryptovation.co/" target="_blank">
@@ -24,7 +25,7 @@
                 </p>
             </div>
 
-            <div class="col-sm-4 col-md-4 col-lg-4 process-box text-center pt10 pb10">
+            <div class="col-sm-4 col-md-4 col-lg-4 process-box text-center pt10 pb10 wow fadeIn">
                 <h3>Specto</h3>
                 <div class="text-center">
                     <a href="http://ava.fund/" target="_blank">
@@ -39,7 +40,7 @@
                     <a href="http://ava.fund" target="_blank">http://ava.fund</a>)
                 </p>
             </div>
-            <div class="col-sm-4 col-md-4 col-lg-4 text-center pt10 pb10 no-borsder">
+            <div class="col-sm-4 col-md-4 col-lg-4 text-center pt10 pb10 no-borsder wow fadeIn">
                 <h3>Broca</h3>
                 <div class="text-center">
                     <img src="https://s3-ap-southeast-1.amazonaws.com/cryptovationx/public/Broca.png" class="img-fluid robot" alt="Responsive image">
@@ -53,3 +54,4 @@
         </div>
     </div>
 </div>
+</section>

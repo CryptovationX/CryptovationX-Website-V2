@@ -1,5 +1,5 @@
-<section class="container section" id="press">
-    <div class="container-fluid">
+<section class="container " id="press">
+    <div class="section">
         <div class="col-xs-12 col-md-12 text-center mb20">
             <h2>In The Press</h2>
             <span class="section-divider"></span> 
