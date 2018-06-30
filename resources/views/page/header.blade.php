@@ -4,7 +4,7 @@
         <div class="container mb100 mt100">
             <div class="row">
                 <div class="col-sm-6 d-flex flex-column justify-content-center align-items-center mb-5 mb-sm-0">
-                    <div class="wow fadeIn" >
+                    <div class="wow fadeIn " data-wow-duration=".5s">
                         <img src="https://s3-ap-southeast-1.amazonaws.com/cryptovationx/public/logos/header-logo.png" width="100%">
                         <h3 class="white-text">"The Best Friend for Crypto Investors"</h3>
                         <div class="text-center">
@@ -13,10 +13,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-6 d-flex flex-column justify-content-center align-items-center mb-5 mb-sm-0 wow fadeIn">
+                <div class="col-sm-6 d-flex flex-column justify-content-center align-items-center mb-5 mb-sm-0 wow fadeIn " data-wow-duration=".2s"">
                     <a href="http://bit.ly/AD2Website" target="_Black">
                     <div class="border-image text-center">
-                        <img class="border-image" src="https://s3-ap-southeast-1.amazonaws.com/cryptovationx/public/CXA_Airdrop2.png" id="airdrop2-image" class="img-fluid"
+                        <img class="border-image img-fluid" src="https://s3-ap-southeast-1.amazonaws.com/cryptovationx/public/CXA_Airdrop2.png" id="airdrop2-image"
                             alt="Responsive image">
                     </div>
                     </a>

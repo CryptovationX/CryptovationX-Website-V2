@@ -9,7 +9,7 @@
 </div>
 <div id="our-process">
     <div class="container">
-        <div class="row">
+        <div class="row wow fadeIn"  data-wow-duration=".2s">
             <div class="col-sm-4 col-md-4 col-lg-4 text-center wow fadeIn">
                 <h3>Arbi</h3>
                 <div class="text-center">

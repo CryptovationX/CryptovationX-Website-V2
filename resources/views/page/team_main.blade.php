@@ -8,7 +8,7 @@
         </div>
         <div class="row mb40">
             <div class="col-xs-12">
-                <ul class="card-member">
+                <ul class="card-member wow fadeIn " data-wow-duration=".5s">
                     <li>
                         <div class="team-member-box">
                             <div class="team-image-wrapper">
