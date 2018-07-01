@@ -29,9 +29,9 @@
                                     {{ __('Login') }}
                                 </button>
 
-                                <a style="font-family: 'Open Sans', sans-serif !important; font-size: 12px;" href="{{ route('password.request') }}">
+                                {{-- <a style="font-family: 'Open Sans', sans-serif !important; font-size: 12px;" href="{{ route('password.request') }}">
                                     {{ __('Forgot Your Password?') }}
-                                </a>
+                                </a> --}}
                         </div>
                     </form>
                 </div>
