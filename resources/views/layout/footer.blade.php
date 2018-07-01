@@ -8,7 +8,7 @@
 	<a href="https://t.me/joinchat/H2POp0-8T_X5FYBq_qfS6A" target="_blank">
 		<i class="fab fa-telegram-plane social-icons-dark-hover mr-2 ml-2 mfooter"></i>
 		</a>
-		<a href="https://www.facebook.com/cryptovation.co/" target="_blank">
+		<a href="https://www.facebook.com/CryptovationX/" target="_blank">
 			<span class="fab fa-facebook-f social-icons-dark-hover mr-2 ml-2 mfooter"></span>
 		</a>
 				<a href="https://twitter.com/CryptovationX?lang=en" target="_blank">

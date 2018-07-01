@@ -129,7 +129,7 @@
 }
 .profile_font{
     font-family:'Open Sans';
-    font-size: 12px;
+    font-size: 14px;
     color: 363b41;
 }
 @media screen and (max-width:800px){
@@ -179,6 +179,16 @@
     border-top: solid 1px #D3D3D3;
     border-left: solid 1px #D3D3D3;
     border-right: solid 1px #D3D3D3;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+@media screen and (max-width:800px){
+    .profile_box {
+        padding: 2%;
+        border-top: solid 1px #D3D3D3;
+        border-left: solid 1px #D3D3D3;
+        border-right: solid 1px #D3D3D3;
+    }
 }
 .profile_row{
     display: -webkit-box;

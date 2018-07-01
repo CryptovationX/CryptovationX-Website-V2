@@ -1,5 +1,5 @@
 @extends('layouts.app')
-@extends("layouts.balance_navbar")
+@include("layouts.balance_navbar")
 @section('title', 'Balance') 
 
 @section('content')
@@ -31,7 +31,7 @@
     {{-- Greeting --}}
     <div class="row normal_font">
         <div class="col-3 title_margin_top center">Welcome</div>
-        <div class="col-6 title_margin_top left">{{ $profile->firstname }}</div>
+        <div class="col-6 title_margin_top left">{{ $profile->lastname." ".$profile->firstname }}</div>
         <div class="col-3 title_margin_top center">
             <div class="verify_box center">Verified</div>
         </div>
@@ -42,7 +42,7 @@
         <div class="col-3 center">
             <div class="eth_tooltip" style="margin-left:2%">ETH wallet</div>
         </div>
-        <div class="col-9">which is updated upon each persons</div>
+        <div class="col-9">{{ $profile->address}}</div>
     </div>
 
     <hr> <br>

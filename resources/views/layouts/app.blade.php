@@ -12,13 +12,19 @@
         <div id="particles-js"></div>
     
 
-            <a href="https://cryptovationx.io" target="_blank"><img src="{{ asset('images/fulltoplogo.png') }}" class="logo"></a>
+            <a target="_blank"><img src="{{ asset('images/fulltoplogo.png') }}" class="logo"></a>
 
 
             <p class="logofont">"The Best Friend for Crypto Investors"</p>
 
 
                 @yield("content") 
+    <script>
+    window.Laravel = <?php echo json_encode([
+    'csrfToken' => csrf_token(),
+    ]); ?>
+    
+    </script>
 
 </body>
 

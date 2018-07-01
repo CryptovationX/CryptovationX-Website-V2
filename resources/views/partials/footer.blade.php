@@ -49,7 +49,7 @@
                 <hr>
                 <a href="https://cryptovationx.io/terms-conditions" target="_blank" class="no-margin terms copyright">Terms and Conditions</a>
                 <p class="no-margin terms copyright">&copy; 2018 Cryptovation. All Right Reserved</p>
-                <br><br>
+                <br>
             </div>
             <!-- /.column -->
         </div>
