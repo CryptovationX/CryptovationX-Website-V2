@@ -25,5 +25,6 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/profile', 'ShowController@profile')->name('profile');
 Route::get('/balance', 'ShowController@balance')->name('balance');
 Route::post('/signoutt', 'ShowController@signout')->name('signout');
+Route::get('/signoutt', 'ShowController@signout2')->name('signout.get');
 
 Route::get('/firstsignon/{token}', 'SignupController@signup');

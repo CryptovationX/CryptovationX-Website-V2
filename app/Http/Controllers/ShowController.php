@@ -42,6 +42,14 @@ class ShowController extends Controller
         return redirect('https://cryptovationx.io/');
     }
 
+    public function signout2(Request $request)
+    {
+        $this->guard()->logout();
+
+        // $request->session()->invalidate();
+
+        return redirect('https://cryptovationx.io/');
+    }
     /**
      * Get the guard to be used during authentication.
      *

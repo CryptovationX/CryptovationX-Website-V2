@@ -16,7 +16,7 @@
 
             <a class="{{ Request::is('profile') ? "active" : "" }}" href="/profile">Profile</a>
             <a class="{{ Request::is('balance') ? "active" : "" }}" href="/balance">Fund</a>
-            <a class="nav-link mr10 ml10 nav-front" href="{{ route('logout') }}"
+            <a class="nav-link mr10 ml10 nav-front" href="{{ route('signout.get') }}"
                           onclick="event.preventDefault();x
                                document.getElementById('logout-form').submit();">
                             {{ __('Logout') }}
@@ -33,7 +33,7 @@
         </li>
         <li class="nav-item">
 
-            <a class="nav-link mr10 ml10 nav-front" href="{{ route('logout') }}"
+            <a class="nav-link mr10 ml10 nav-front" href=""
                           onclick="event.preventDefault();
                                document.getElementById('logout-form').submit();">
                             {{ __('Logout') }}
