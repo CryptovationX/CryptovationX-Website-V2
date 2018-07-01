@@ -26,9 +26,20 @@
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    
-    
 
+    <!-- Royal Preloader CSS -->
+    <link href="css/royal_preloader.css" rel="stylesheet">
+    
+    
+    <!-- Royal Preloader -->
+    <script type="text/javascript" src="js/royal_preloader.min.js"></script>
+    <script type="text/javascript">
+        Royal_Preloader.config({
+            mode: 'number',
+            showProgress: false,
+            background: '#000'
+        });
+    </script>
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
@@ -38,3 +49,5 @@
     <link href="{{ asset('/css/ionicons.min.css') }}" rel="stylesheet">
     <link href="{{ asset('/css/navbar.css') }}" rel="stylesheet">
     <link href="{{ asset('/css/transaction.css') }}" rel="stylesheet">
+
+    

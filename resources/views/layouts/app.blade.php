@@ -6,7 +6,14 @@
     <title>CryptovationX | @yield('title')</title>
 </head>
 
-<body>
+<body class="royal_preloader background-white" data-spy="scroll" data-target=".navbar" data-offset="70">
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KZ5ZCBM"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+        <div id="royal_preloader"></div>
+        
     @include("partials.scripts")
 
         <div id="particles-js"></div>
