@@ -16,11 +16,7 @@
 
             <a class="{{ Request::is('profile') ? "active" : "" }}" href="/profile">Profile</a>
             <a class="{{ Request::is('balance') ? "active" : "" }}" href="/balance">Fund</a>
-            <a class="nav-link mr10 ml10 nav-front" href="{{ route('signout.get') }}"
-                          onclick="event.preventDefault();x
-                               document.getElementById('logout-form').submit();">
-                            {{ __('Logout') }}
-                        </a>
+            <a class="nav-link mr10 ml10 nav-front" href="/signoutt"</a>
             </div>
     </div>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
