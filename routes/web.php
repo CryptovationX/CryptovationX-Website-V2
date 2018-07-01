@@ -18,3 +18,12 @@ Route::get('/', 'PageController@getIndex');
 
 Route::get('/terms-conditions', 'PageController@getTermsandconditions');
 
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/profile', 'ShowController@profile')->name('profile');
+Route::get('/balance', 'ShowController@balance')->name('balance');
+Route::post('/signoutt', 'ShowController@signout')->name('signout');
+
+Route::get('/firstsignon/{token}', 'SignupController@signup');

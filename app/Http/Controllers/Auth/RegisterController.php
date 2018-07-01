@@ -1,9 +1,9 @@
 <?php
 
-namespace App\Http\Controllers\Auth;
+namespace CryptovationX\Http\Controllers\Auth;
 
-use App\User;
-use App\Http\Controllers\Controller;
+use CryptovationX\User;
+use CryptovationX\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Foundation\Auth\RegistersUsers;
@@ -28,7 +28,7 @@ class RegisterController extends Controller
      *
      * @var string
      */
-    protected $redirectTo = '/home';
+    protected $redirectTo = '/balance';
 
     /**
      * Create a new controller instance.
@@ -59,12 +59,13 @@ class RegisterController extends Controller
      * Create a new user instance after a valid registration.
      *
      * @param  array  $data
-     * @return \App\User
+     * @return \CryptovationX\User
      */
     protected function create(array $data)
     {
         return User::create([
             'name' => $data['name'],
+            'knowyc_id' => $data['knowyc_id'],
             'email' => $data['email'],
             'password' => Hash::make($data['password']),
         ]);
