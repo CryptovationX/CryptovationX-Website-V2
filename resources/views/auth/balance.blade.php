@@ -75,24 +75,23 @@
             </div> --}}
             <div class="calendar_events">
             {{-- <p class="ce_title">Upcoming Events</p> --}}
-            <div class="event_item">
+            <div class="event_item" style="color: black;">
                 <div class="row center">
-                <div class="col-3 left">
-                    <div class="ei_Title">Date</div>
-                    <div class="ei_Copy">2018-06-29</div>
-                </div>
-                <div class="col-3">
-                        <div class="ei_Title">CXA</div>
-                        <div class="ei_Copy">0.003$ : CXA</div>
-                </div>
-                <div class="col-3">
-                        <div class="ei_Title">Number of tokens</div>
-                        <div class="ei_Copy">3000</div>
-
-                </div>
-                <div class="col-3 right">
-                    <div class="correct">Completed</div>
-                </div>
+                    <div class="col-3">
+                        <div class="ei_Copy">2018-06-29</div>
+                    </div>
+                    <div class="col-3">
+                        <div class="ei_Copy left">Deposit</div>
+                    </div>
+                    <div class="col-1" style="margin-left:-5%">
+                            <div class="ei_Copy">3000</div>
+                    </div>
+                    <div class="col-1" style="margin-left:8%">
+                        <div class="ei_Copy">CXA</div>
+                    </div>
+                    <div class="col-3 center">
+                        <div class="correct" style="margin-left:8%">Completed</div>
+                    </div>
                 </div>
             </div>
             </div>
