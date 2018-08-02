@@ -159,12 +159,11 @@
     });
 
     new Vue({
-        el: '#test',
+        el: '#order',
 
         data: {
-            binance_btc: 0,
-            binance_eth: 0,
-            hitbtc_xrp: 0
+
+            orderbooks: {},
 
         },
 
@@ -173,12 +172,7 @@
             socket.on('orderbooks-channel:App\\Events\\OrderbookOmit', function (data) {
 
                 this.orderbooks = JSON.parse(data.orderbooks);
-                this.binance_btc = this.orderbooks[0][0]['bid'][0];
-                this.binance_eth = this.orderbooks[0][1]['bid'][0];
-                this.hitbtc_xrp = this.orderbooks[4][2]['bid'][0];
                 // console.log(this.orderbooks);
-
-                console.log(this.binance);
 
             }.bind(this));
         },
