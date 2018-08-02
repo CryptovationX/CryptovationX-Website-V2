@@ -10,7 +10,8 @@ $(window).scroll(function() {
         $(".navbar-default .navbar-nav>li>a").css('color','#000');
         $(".navbar-brand-mat>img").attr("src","images/Token.png");
         $(".navbar-default .navbar-toggle .icon-bar").css("background-color","#3498db");
-        $(".hamline").css("background-color","#3498db");        
+        $(".hamline").css("background-color","#3498db");
+        $(".navbar-shadow").css('box-shadow','5px 9px 25px 0 rgba(0, 0, 0, 0.05)');
         
        
         
@@ -21,7 +22,8 @@ $(window).scroll(function() {
         $(".navbar-default, .navbar-default .navbar-nav>li>a").removeAttr('style');
         $(".navbar-brand-mat>img").attr("src","images/Token3.png");
         $(".navbar-default .navbar-toggle .icon-bar").css("background-color","#fff");
-        $(".hamline").css("background-color","white");
+        $(".hamline").css("background-color","#3399ff");
+        $("#controller").css("margin-left","0");
         
       
        

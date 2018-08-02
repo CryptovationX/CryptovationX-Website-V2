@@ -1,6 +1,6 @@
-@extends('layouts.app')
+@extends('layouts.app_nologo')
 @include("layouts.balance_navbar")
-@section('title', 'Balance') 
+@section('title', 'Profile') 
 
 @section('content')
  <div class="container bg c_margin profile_font">
