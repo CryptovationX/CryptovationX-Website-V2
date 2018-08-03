@@ -8,9 +8,9 @@
     
 
     <!-- Scripts -->
-    <script src="{{ asset('js/app.js') }}" defer></script>
+    <script src="{{ asset('/js/app.js') }}" defer></script>
     <script src="{{ asset("/js/particles.min.js") }}"></script>
-    <script src="{{ asset("/js/navbar.js") }}"></script>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script type="text/javascript" src="{!! asset('/js/parsley.min.js') !!}"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -28,11 +28,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- Royal Preloader CSS -->
-    <link href="css/royal_preloader.css" rel="stylesheet">
+    <link href="/css/royal_preloader.css" rel="stylesheet">
     
     
     <!-- Royal Preloader -->
-    <script type="text/javascript" src="js/royal_preloader.min.js"></script>
+    <script type="text/javascript" src="/js/royal_preloader.min.js"></script>
     <script type="text/javascript">
         Royal_Preloader.config({
             mode: 'number',
@@ -42,9 +42,9 @@
     </script>
 
     <!-- Styles -->
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-    <link href="{{ asset('css/cxa.css') }}" rel="stylesheet">
-    <link href="{{ asset('css/clf.css') }}" rel="stylesheet">
+    <link href="{{ asset('/css/app.css') }}" rel="stylesheet">
+    <link href="{{ asset('/css/cxa.css') }}" rel="stylesheet">
+    <link href="{{ asset('/css/clf.css') }}" rel="stylesheet">
     <link href="{{ asset('/css/footer.css') }}" rel="stylesheet">
     <link href="{{ asset('/css/ionicons.min.css') }}" rel="stylesheet">
     <link href="{{ asset('/css/navbar.css') }}" rel="stylesheet">

@@ -29,8 +29,11 @@ class ShowController extends Controller
     }
     public function balance()
     {
-        $profile = Knowyc::find(1);
-        return view('auth.balance')->withProfile(auth()->user()->knowyc);
+        $total = 0;
+        foreach (auth()->user()->knowyc->token as $key => $token) {
+            $total += $token->total_token;
+        }
+        return view('auth.balance')->withProfile(auth()->user()->knowyc)->withBalance($total);
     }
 
     public function signout(Request $request)

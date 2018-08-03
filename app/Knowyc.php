@@ -10,4 +10,9 @@ class Knowyc extends Model
     {
         return $this->hasOne('CryptovationX\User');
     }
+
+    public function token()
+    {
+        return $this->hasMany(CXAHistory::class);
+    }
 }

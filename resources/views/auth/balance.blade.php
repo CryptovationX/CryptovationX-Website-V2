@@ -31,9 +31,9 @@
     {{-- Greeting --}}
     <div class="row normal_font">
         <div class="col-3 title_margin_top center">Welcome</div>
-        <div class="col-6 title_margin_top left">{{ $profile->lastname." ".$profile->firstname }}</div>
+        <div class="col-6 title_margin_top left">{{ $profile->lastname.", ".$profile->firstname }}</div>
         <div class="col-3 title_margin_top center">
-            <div class="verify_box center">Verified</div>
+            {{-- <div class="verify_box center">Verified</div> --}}
         </div>
     </div>
 
@@ -52,7 +52,7 @@
         <div class="balance_border light left">
             <div class="balance_padding normal_font">
                 <div class="header_copy center"><b>Balance</b></div> <br>
-                <div class="center ">3000</div> <br>
+                <div class="center ">{{ $balance }}</div> <br>
                 <div class="calendar_events ce_title center">CXA Tokens</div>
             </div>
         </div>
@@ -77,14 +77,18 @@
             {{-- <p class="ce_title">Upcoming Events</p> --}}
             <div class="event_item" style="color: black;">
                 <div class="row center">
+
+                    @foreach ($profile->token as $token)
+                        
+                    
                     <div class="col-3">
-                        <div class="ei_Copy">2018-06-29</div>
+                        <div class="ei_Copy">{{ $token->created_at }}</div>
                     </div>
                     <div class="col-3">
-                        <div class="ei_Copy left">Deposit</div>
+                        <div class="ei_Copy left">{{ $token->type }}</div>
                     </div>
                     <div class="col-1" style="margin-left:-5%">
-                            <div class="ei_Copy">3000</div>
+                            <div class="ei_Copy">{{ $token->total_token }}</div>
                     </div>
                     <div class="col-1" style="margin-left:8%">
                         <div class="ei_Copy">CXA</div>
@@ -92,6 +96,8 @@
                     <div class="col-3 center">
                         <div class="correct" style="margin-left:8%">Completed</div>
                     </div>
+
+                    @endforeach
                 </div>
             </div>
             </div>
