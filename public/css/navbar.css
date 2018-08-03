@@ -1,3 +1,8 @@
+@media screen and (max-width:800px){
+    .phone_container{
+        max-width: 690!important;
+    }
+}
 @media screen and (max-width:750px){
     .phone_container{
         margin-left: -30px;
@@ -16,9 +21,13 @@
     }
     .navbar-brand-mat {
         padding-left: 50px!important;
+        padding-top: 10px!important;
     }
     .hambtn {
         padding-right: 10px!important;
+    }
+    .nav_pic{
+        width: 130px!important;
     }
 
 }
@@ -75,6 +84,10 @@
     background-color: transparent;
 }
 
+.nav_pic{
+    width: 200px;
+}
+
 .navbar-right {
     margin-right: 15px;
 }
@@ -106,10 +119,13 @@
     display: none;
 }
 @media screen and (max-width:800px){
-.hamdropdown {
-    position: relative;
-    display: inline-block;
-}
+    .hamdropdown {
+        position: relative;
+        display: inline-block;
+    }
+    .hambtn {
+        padding-right: 50px!important;
+    }
 }
 
 .hamdropdown-content {

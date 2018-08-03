@@ -8,7 +8,7 @@ $(window).scroll(function() {
             padding: '0'
         });
         $(".navbar-default .navbar-nav>li>a").css('color','#000');
-        $(".navbar-brand-mat>img").attr("src","images/Token.png");
+        $(".navbar-brand-mat>img").attr("src","https://s3-ap-southeast-1.amazonaws.com/cryptovationx/public/logos/final-logo.png");
         $(".navbar-default .navbar-toggle .icon-bar").css("background-color","#3498db");
         $(".hamline").css("background-color","#3498db");
         $("#controller").css("color","black");
@@ -21,7 +21,7 @@ $(window).scroll(function() {
         // $(".navbar-default").css('border-bottom','0.5px solid #090c1b');
     } else {
         $(".navbar-default, .navbar-default .navbar-nav>li>a").removeAttr('style');
-        $(".navbar-brand-mat>img").attr("src","images/Token3.png");
+        $(".navbar-brand-mat>img").attr("src","https://s3-ap-southeast-1.amazonaws.com/cryptovationx/public/logos/fulltoplogo.png");
         $(".navbar-default .navbar-toggle .icon-bar").css("background-color","#fff");
         $(".hamline").css("background-color","white");
         $("#controller").css("color","white");

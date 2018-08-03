@@ -16,7 +16,7 @@
 <nav id="home" class="navbar  navbar-default fixed-top navbar-shadow navbar-expand-lg navbar-shadow background-white">
     <div class="container">
         <a class="navbar-brand-mat" href="#">
-            {{-- <img src="images/Token.png" class="img-fluid" alt="Responsive image" height="40px" width="40px"> --}}
+            <img src="https://s3-ap-southeast-1.amazonaws.com/cryptovationx/public/logos/fulltoplogo.png" class="img-fluid" alt="Responsive image" height="200px" width="200px">
         </a>
     
     <div class="hamdropdown">
