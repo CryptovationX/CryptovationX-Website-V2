@@ -35,7 +35,6 @@ body{
 .header_copy{
   color:#A39D9E;
   font-size:20px;
-  transition: 0.3s;
 }
 @media screen and (max-width:800px){
 .header_copy{

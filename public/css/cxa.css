@@ -16,8 +16,8 @@
     background-attachment: fixed;
 }
 .logo {
-    padding: 100px 50px 50px 50px;
-    width: 800px;
+    padding: 50px;
+    width: 500px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -25,10 +25,10 @@
 @media screen and (max-width:900px){
     .logo {
         width: 375px;
-        padding: 70px 15px 50px 15px;
+        padding: 75px 15px 50px 15px;
     }
 }
-@media screen and (max-width:750){
+@media screen and (max-width:750px){
     .logo {
         width: 375px;
         padding: 85px 15px 50px 15px;
@@ -51,7 +51,6 @@
     padding: 20px 30px;
     color:#363b41;
     display: inline-block;
-    transition: 0.3s;
   }
 @media screen and (max-width:800px){
 .balance_border {
@@ -64,12 +63,12 @@
     background: #F8F8FF;
 }
 .c_margin{
-    width: 100%;
-    margin: 0 auto;
+    margin: 200px auto;
+    margin-bottom: 0;
 }
 @media screen and (max-width:800px){
 .c_margin{
-    margin: 30px auto;
+    margin: 120px auto 0 auto;
     height: 100vh auto;
     }
 }
@@ -102,7 +101,7 @@
 /* font */
 .logofont{
     font-family:'Open Sans';
-    font-size: 29px;    
+    font-size: 20px;    
     color: aliceblue;
     text-align: center;
     margin-top: -2.5%;
@@ -124,7 +123,7 @@
 .normal_font{
     font-family:'Open Sans';
     font-size: 16px;
-    color: #363b41;
+    color: 363b41;
 }
 @media screen and (max-width:800px){
     .normal_font{
@@ -143,8 +142,8 @@
 }
 .profile_font{
     font-family:'Open Sans';
-    font-size: 14px;
-    color: #363b41;
+    font-size: 12px;
+    color: 363b41;
 }
 @media screen and (max-width:800px){
     .profile_font{
@@ -154,7 +153,7 @@
 .redirect_font{
     font-family:'Open Sans';
     font-size: 24px;
-    color: #363b41;
+    color: 363b41;
 }
 @media screen and (max-width:800px){
     .redirect_font{
@@ -164,7 +163,7 @@
 .redirecting_font{
     font-family:'Open Sans';
     font-size: 18px;
-    color: #363b41;
+    color: 363b41;
 }
 @media screen and (max-width:800px){
     .redirecting_font{
@@ -193,16 +192,6 @@
     border-top: solid 1px #D3D3D3;
     border-left: solid 1px #D3D3D3;
     border-right: solid 1px #D3D3D3;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-@media screen and (max-width:800px){
-    .profile_box {
-        padding: 2%;
-        border-top: solid 1px #D3D3D3;
-        border-left: solid 1px #D3D3D3;
-        border-right: solid 1px #D3D3D3;
-    }
 }
 .profile_row{
     display: -webkit-box;
@@ -264,52 +253,6 @@
     padding: 25% 0;
     }
 }
-/* liveprice */
-@media screen and (max-width:325px){
-    #clock{
-        display: none;
-    }
-    .ticker_margin {
-        margin: 80px 0px 30px -50px!important;
-    }
-}
-@media screen and (max-width:750px){
-    .phone_container{
-        /* margin-left: 30px; */
-    }
-    .ticker_margin {
-        margin: 80px 0px 30px -25px;
-    }
-    .navbar-brand-mat {
-        margin-top: 10px;
-    }
-    .ticker_margin span {
-        font-size: 6px;
-    }
-    .liveprice{
-        padding: 0px 0px 0px 0px!important;
-    }
-}
-.liveprice{
-    direction: rtl;
-    padding: 100px 0px 30px 0px;
-}
-#controller {
-    display: inline-block;
-    position: absolute;
-    width: auto;
-    font-size: 14px;
-}
-/* Token application */
-.token_application{
-    cursor: pointer;
-    transition: 0.3s;
-}
-.token_application:hover{
-    color: #3399ff;
-    text-shadow: 2.5px 2.5px 3.5px #e6e6e6;
-  
-}
 /* verify */
 .verify_box{
     box-shadow: 0px 0px 35px -16px rgba(0, 0, 0, 0.75);
@@ -324,7 +267,7 @@
 @media screen and (max-width:800px){
 .verify_box {
     width:100%;
-    }
+}
 }
 
 /* tooltip */
@@ -367,9 +310,19 @@
     text-decoration: none;
     background-color: rgba(0, 191, 255, 0.904);
 }
-
 div{
     font-family:'Open Sans';
+}
+
+/* Token application */
+.token_application{
+    cursor: pointer;
+    transition: 0.3s;
+}
+.token_application:hover{
+    color: #3399ff;
+    text-shadow: 2.5px 2.5px 3.5px #e6e6e6;
+  
 }
 
 /* The Announcement Modal (background) */
@@ -378,7 +331,7 @@ div{
     background-color: hsl(204, 100%, 98%);
     text-align: center;
     border: 1px solid rgba(0, 191, 255, 0.1);
-    padding: 5px;
+    padding: 10px;
 }
 .announcement_img{
     height: 350px;
@@ -420,6 +373,7 @@ div{
         font-size: 10px;
         height: 300px!important;
         width: 90%!important;
+        margin:0!important;
     }
 }
 #announcement_myBtn{
@@ -427,7 +381,7 @@ div{
     transition: 0.3s;
 }
 #announcement_myBtn:hover{
-    text-shadow: 1px 1px 1.5px #cccccc;
+    color: #f7941d;
 }
 .announcement_modal-content {
     background-color: #fefefe;
@@ -457,6 +411,20 @@ div{
     cursor: pointer;
 }
 /* Balance table picture */
+@media screen and (max-width:900px){
+    .balance_modal {
+        padding-top: 100px!important;
+    }
+    .balance_modal-content {
+        width: 100%!important;
+        height: 100%;
+        padding: 0 0 10px 0!important;
+        margin: 0!important;
+    }
+    .balance_close{
+        padding: 10px!important;
+    }
+}
 @media screen and (max-width:750px){
     .balance_modal {
         padding-top: 200px!important;
@@ -466,8 +434,9 @@ div{
         width: 100%!important;
     }
     .balance_modal-content {
-        width: 95%!important;
+        width: 90%!important;
         padding: 0 0 10px 0!important;
+        margin: 0px!important;
     }
     .balance_close {
         padding-right:10px;
@@ -492,7 +461,7 @@ div{
     max-width: 200px;;
 }
 .balance_table_pic{
-    height: 100%;
+    height: 80%;
     width: 100%;
 }
 /* The Balance Modal (background) */
@@ -500,7 +469,7 @@ div{
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
     z-index: 1; /* Sit on top */
-    padding-top: 80px; /* Location of the box */
+    padding-top: 50px; /* Location of the box */
     left: 0;
     top: 0;
     width: 100%; /* Full width */
@@ -541,7 +510,7 @@ div{
 .balance_tooltip .balance_tooltiptext {
     visibility: hidden;
     width: 295px;
-    background-color: #3399ff;;
+    background-color: #3399ff;
     color: #fff;
     text-align: center;
     padding: 9px 0;
