@@ -15,6 +15,6 @@ class TestController extends Controller
 
     public function test()
     {
-        \Iseed::generateSeed('users');
+        \Iseed::generateSeed('c_x_a_histories');
     }
 }
