@@ -1,0 +1,1168 @@
+<?php
+
+use Illuminate\Database\Seeder;
+
+class UsersTableSeeder extends Seeder
+{
+
+    /**
+     * Auto generated seed file
+     *
+     * @return void
+     */
+    public function run()
+    {
+        
+
+        \DB::table('users')->delete();
+        
+        \DB::table('users')->insert(array (
+            0 => 
+            array (
+                'id' => 5,
+                'knowyc_id' => 11,
+                'name' => 'Aleksandr',
+                'email' => 'serebalek2@gmail.com',
+                'password' => '$2y$10$m0/UB65Bi1KggzZ.pFCsFeSUaMDxLC1Rdcz5iLnCD9miQeTZzdmRW',
+                'remember_token' => NULL,
+                'created_at' => '2018-07-01 05:40:56',
+                'updated_at' => '2018-07-01 05:40:56',
+            ),
+            1 => 
+            array (
+                'id' => 6,
+                'knowyc_id' => 35,
+                'name' => 'Son',
+                'email' => 'samlientay@gmail.com',
+                'password' => '$2y$10$bwEYBWFAzTijrLVS76YcQuZGtb6udXjg.y9mJdmT6ClsEi20eDcQW',
+                'remember_token' => NULL,
+                'created_at' => '2018-07-01 05:42:12',
+                'updated_at' => '2018-07-01 05:42:12',
+            ),
+            2 => 
+            array (
+                'id' => 7,
+                'knowyc_id' => 31,
+                'name' => 'Hoa',
+                'email' => 'hongochoa1911@gmail.com',
+                'password' => '$2y$10$6SDDjWVVkkTfw/6PxZkO4u.tx4mCBJvYewsoOHCJt862JgEg86uRu',
+                'remember_token' => NULL,
+                'created_at' => '2018-07-01 05:42:20',
+                'updated_at' => '2018-07-01 05:42:20',
+            ),
+            3 => 
+            array (
+                'id' => 8,
+                'knowyc_id' => 39,
+                'name' => 'Hemant',
+                'email' => 'hemant.marathe556@gmail.com',
+                'password' => '$2y$10$6fegK31FLRljQ//81X7oM.Vci7zqD0qJmrls2XX7VLEK9JAZ3j2RO',
+                'remember_token' => '2Oljrn7MHfiEsCHu5Lz1m7EsZneWWwvdcnfVn5rxqkVyWuRc3A49h4Yuf5Jh',
+                'created_at' => '2018-07-01 05:46:44',
+                'updated_at' => '2018-07-01 05:46:44',
+            ),
+            4 => 
+            array (
+                'id' => 9,
+                'knowyc_id' => 21,
+                'name' => 'Vo',
+                'email' => 'uandi1818@gmail.com',
+                'password' => '$2y$10$yrfHWan628yFLj/oo/1Ml.vVEaK4EpZdxunx9xxXbSbguG/lk68Dy',
+                'remember_token' => NULL,
+                'created_at' => '2018-07-01 05:57:36',
+                'updated_at' => '2018-07-01 05:57:36',
+            ),
+            5 => 
+            array (
+                'id' => 10,
+                'knowyc_id' => 25,
+                'name' => 'loc',
+                'email' => 'tanlocxddd@gmail.com',
+                'password' => '$2y$10$Xf91SOZ91Q9WtpQ.sWejzOGgEm16LiyL0d2AfSu26zVvwW7aoXdpm',
+                'remember_token' => NULL,
+                'created_at' => '2018-07-01 06:05:54',
+                'updated_at' => '2018-07-01 06:05:54',
+            ),
+            6 => 
+            array (
+                'id' => 11,
+                'knowyc_id' => 51,
+                'name' => 'Tran',
+                'email' => 'kiemthu1802@gmail.com',
+                'password' => '$2y$10$EUlwpu.6qoL3mLd/ENSp8OQycQwiFU.xOKz/d2u1K9xjZ5oRuGOD.',
+                'remember_token' => NULL,
+                'created_at' => '2018-07-01 06:09:37',
+                'updated_at' => '2018-07-01 06:09:37',
+            ),
+            7 => 
+            array (
+                'id' => 12,
+                'knowyc_id' => 17,
+                'name' => 'Manish',
+                'email' => 'karnaryian@gmail.com',
+                'password' => '$2y$10$kUVjXWGb.zJ7TRdsLbff.u6.tWv2ceVxCsddwqTRxU62s6PkF4hhu',
+                'remember_token' => NULL,
+                'created_at' => '2018-07-01 06:10:31',
+                'updated_at' => '2018-07-01 06:10:31',
+            ),
+            8 => 
+            array (
+                'id' => 13,
+                'knowyc_id' => 52,
+                'name' => 'Opeyemi',
+                'email' => 'leebangji867@gmail.com',
+                'password' => '$2y$10$mawkFpxckj1cG55qTOFoqOSqPBIo9gd9W0FE6JhuNdIf6xFtDojKW',
+                'remember_token' => NULL,
+                'created_at' => '2018-07-01 06:17:18',
+                'updated_at' => '2018-07-01 06:17:18',
+            ),
+            9 => 
+            array (
+                'id' => 14,
+                'knowyc_id' => 46,
+                'name' => 'HO',
+                'email' => 'jatyhow@yahoo.com.tw',
+                'password' => '$2y$10$5PLAL9XK3NWoRSwym9a7uuHe7dyFOHFwkC5YvRIjM9p.GovqwWuCu',
+                'remember_token' => NULL,
+                'created_at' => '2018-07-01 06:17:48',
+                'updated_at' => '2018-07-01 06:17:48',
+            ),
+            10 => 
+            array (
+                'id' => 15,
+                'knowyc_id' => 15,
+                'name' => 'Mostafa',
+                'email' => 'eng_mmw@hotmail.com',
+                'password' => '$2y$10$tGhWwtAfVs0TZCAGNhmoferpGyWb9IjAdsolNO1bsqQ0mkCitJ/0i',
+                'remember_token' => NULL,
+                'created_at' => '2018-07-01 06:24:13',
+                'updated_at' => '2018-07-01 06:24:13',
+            ),
+            11 => 
+            array (
+                'id' => 16,
+                'knowyc_id' => 16,
+                'name' => 'Vladimir',
+                'email' => 'vvp_1992@mail.ru',
+                'password' => '$2y$10$fkODmRn2LUXDZTINfdTYk.SbYBJUhP3bMibua0QurLxXNm6hIDs.O',
+                'remember_token' => NULL,
+                'created_at' => '2018-07-01 07:07:36',
+                'updated_at' => '2018-07-01 07:07:36',
+            ),
+            12 => 
+            array (
+                'id' => 17,
+                'knowyc_id' => 19,
+                'name' => 'huỳnh',
+                'email' => 'huynhhuutho6@gmail.com',
+                'password' => '$2y$10$TbCkl8eMrHZEq/ikNqNAO.K59doOe4hR4NLb1vaRJwF0HUDs5fWNC',
+                'remember_token' => NULL,
+                'created_at' => '2018-07-01 07:14:50',
+                'updated_at' => '2018-07-01 07:14:50',
+            ),
+            13 => 
+            array (
+                'id' => 18,
+                'knowyc_id' => 50,
+                'name' => 'mubaraq',
+                'email' => 'olartbaraq247@gmail.com',
+                'password' => '$2y$10$TLC9B/S201..p4QNtfp64ONyKSfNew/ktJchstJibqKIaxBjugbYW',
+                'remember_token' => NULL,
+                'created_at' => '2018-07-01 07:19:43',
+                'updated_at' => '2018-07-01 07:19:43',
+            ),
+            14 => 
+            array (
+                'id' => 19,
+                'knowyc_id' => 44,
+                'name' => 'rido',
+                'email' => 'masih.ridho@gmail.com',
+                'password' => '$2y$10$tkhu26sJY.WDw9SGdfIQHutkpOSAAz/sebpuOgDq0eRknP3.Awkm2',
+                'remember_token' => NULL,
+                'created_at' => '2018-07-01 07:21:06',
+                'updated_at' => '2018-07-01 07:21:06',
+            ),
+            15 => 
+            array (
+                'id' => 20,
+                'knowyc_id' => 34,
+                'name' => 'gültekin',
+                'email' => 'tekinve58@hotmail.com',
+                'password' => '$2y$10$SYo8CSfXqDspiMGDrUUKhuVcGXxm/vyv6wICYrXV6CZ.nK3U9gqIy',
+                'remember_token' => NULL,
+                'created_at' => '2018-07-01 07:23:31',
+                'updated_at' => '2018-07-01 07:23:31',
+            ),
+            16 => 
+            array (
+                'id' => 21,
+                'knowyc_id' => 14,
+                'name' => 'Hoang Ich',
+                'email' => 'congtvg@gmail.com',
+                'password' => '$2y$10$2dvIJbbn62.IArgdmC2Aruq2rqnSwv9mz61MyhEvf0Zbu9s9oAlHK',
+                'remember_token' => NULL,
+                'created_at' => '2018-07-01 07:33:48',
+                'updated_at' => '2018-07-01 07:33:48',
+            ),
+            17 => 
+            array (
+                'id' => 22,
+                'knowyc_id' => 20,
+                'name' => 'HOANG',
+                'email' => 'hoangforairdrop@gmail.com',
+                'password' => '$2y$10$1rCOrestJqrWrNqlj2EmqOxfJxKpwAZxwAEfd7pREQQ8hnTodae4C',
+                'remember_token' => NULL,
+                'created_at' => '2018-07-01 07:38:41',
+                'updated_at' => '2018-07-01 07:38:41',
+            ),
+            18 => 
+            array (
+                'id' => 23,
+                'knowyc_id' => 26,
+                'name' => 'Renaud',
+                'email' => 'kebestoul@gmail.com',
+                'password' => '$2y$10$6japudzvj4jwPZTTevfR5.3y.0.t1bJWhJgk66wqThcCAtFnHn2z2',
+                'remember_token' => NULL,
+                'created_at' => '2018-07-01 08:17:48',
+                'updated_at' => '2018-07-01 08:17:48',
+            ),
+            19 => 
+            array (
+                'id' => 24,
+                'knowyc_id' => 6,
+                'name' => 'Natalia',
+                'email' => 'natassa3228@gmail.com',
+                'password' => '$2y$10$XnFe3O5GlTCZHG/uaobDveIw7D7Lt1x2PfvdhKNOd.kIVAO4CErYa',
+                'remember_token' => NULL,
+                'created_at' => '2018-07-01 09:18:55',
+                'updated_at' => '2018-07-01 09:18:55',
+            ),
+            20 => 
+            array (
+                'id' => 25,
+                'knowyc_id' => 13,
+                'name' => 'Dmytro',
+                'email' => 'dartsidon@gmail.com',
+                'password' => '$2y$10$8V8jaftdIbSauwecH4P.MuXNrSaMOuvpGMNFzdd67SWK/cLqGW6de',
+                'remember_token' => 'EKr0Wb6LxmPXNJJ7q0S1q1MhR4CAYjzb66sIoVWh0wGTNVeDLSQ2hfSNbxc0',
+                'created_at' => '2018-07-01 10:04:02',
+                'updated_at' => '2018-07-01 10:04:02',
+            ),
+            21 => 
+            array (
+                'id' => 26,
+                'knowyc_id' => 5,
+                'name' => 'MIYUKI',
+                'email' => 'miyumyu2011@gmail.com',
+                'password' => '$2y$10$/N2CXIgUXvoLvh6A7Gl8deNxjx1hJ4tu85oJjIzxtSbQa8/5lAg3W',
+                'remember_token' => NULL,
+                'created_at' => '2018-07-01 12:06:43',
+                'updated_at' => '2018-07-01 12:06:43',
+            ),
+            22 => 
+            array (
+                'id' => 27,
+                'knowyc_id' => 10,
+                'name' => 'Johnson',
+                'email' => 'j.karysan@gmail.com',
+                'password' => '$2y$10$NUc2CJXToJtlciqLathOkuqiraxF5H9sb3Bqlx8Jnvu8ThWd8v.ZC',
+                'remember_token' => NULL,
+                'created_at' => '2018-07-01 13:15:49',
+                'updated_at' => '2018-07-01 13:15:49',
+            ),
+            23 => 
+            array (
+                'id' => 28,
+                'knowyc_id' => 33,
+                'name' => 'Dmitriy',
+                'email' => 'buts17932@gmail.com',
+                'password' => '$2y$10$R2wGKo6/Q7ru6tARY/obm.GGUALPEIn.V0V2T/tepocFSYPPLqyES',
+                'remember_token' => '0TI9f6ISG5zKq4bCNuWlCATWcCnWft6BTvCqWEzujvKWxIXmm26E32ctcq5P',
+                'created_at' => '2018-07-01 13:21:01',
+                'updated_at' => '2018-07-01 13:21:01',
+            ),
+            24 => 
+            array (
+                'id' => 29,
+                'knowyc_id' => 56,
+                'name' => 'Ben',
+                'email' => 'bezekal@gmail.com',
+                'password' => '$2y$10$rNF8e21rz4E5KldddIf9OuoXXTWCxvxNbksTOZboAIXIUMXmRjaTu',
+                'remember_token' => NULL,
+                'created_at' => '2018-07-01 13:41:26',
+                'updated_at' => '2018-07-01 13:41:26',
+            ),
+            25 => 
+            array (
+                'id' => 30,
+                'knowyc_id' => 69,
+                'name' => 'bae',
+                'email' => 'edium95@gmail.com',
+                'password' => '$2y$10$BmefdIKOEfjuiljePiTxNuS.aLn6kGJuXKdHb7Gq03Kc8IfTfHsry',
+                'remember_token' => NULL,
+                'created_at' => '2018-07-01 13:41:56',
+                'updated_at' => '2018-07-01 13:41:56',
+            ),
+            26 => 
+            array (
+                'id' => 31,
+                'knowyc_id' => 76,
+                'name' => 'Ashley',
+                'email' => 'woodpeckersnake@yahoo.com',
+                'password' => '$2y$10$uOP37uyQsVPm..Y3GMVF3e4vviKXloksvutt4LOYlQcNs0unopeOm',
+                'remember_token' => NULL,
+                'created_at' => '2018-07-01 13:42:49',
+                'updated_at' => '2018-07-01 13:42:49',
+            ),
+            27 => 
+            array (
+                'id' => 32,
+                'knowyc_id' => 74,
+                'name' => 'Cuong',
+                'email' => '12b4dtcon@gmail.com',
+                'password' => '$2y$10$YTb8ulM9RzFWXGkA2azZfO9bcuA9GPNDq8J4KUfj5wEbeZ/2oYT..',
+                'remember_token' => NULL,
+                'created_at' => '2018-07-01 13:43:02',
+                'updated_at' => '2018-07-01 13:43:02',
+            ),
+            28 => 
+            array (
+                'id' => 33,
+                'knowyc_id' => 80,
+                'name' => 'Viacheslav',
+                'email' => 'viachevyk@gmail.com',
+                'password' => '$2y$10$657cE4rl5kL5RlANu3LU.ObdKE6hc.0IHKsV5yIe7811QpWzSFxEy',
+                'remember_token' => NULL,
+                'created_at' => '2018-07-01 13:44:22',
+                'updated_at' => '2018-07-01 13:44:22',
+            ),
+            29 => 
+            array (
+                'id' => 34,
+                'knowyc_id' => 99,
+                'name' => 'Muhammad shahzad',
+                'email' => 'asims100819@gmail.com',
+                'password' => '$2y$10$38XmvbBhcgx3.91gGsF1u.GSAosv4YpTt116uPYGLGohVSpfuQCVq',
+                'remember_token' => NULL,
+                'created_at' => '2018-07-01 13:46:18',
+                'updated_at' => '2018-07-01 13:46:18',
+            ),
+            30 => 
+            array (
+                'id' => 35,
+                'knowyc_id' => 100,
+                'name' => 'Vladimir',
+                'email' => 'vovkafrol41@gmail.com',
+                'password' => '$2y$10$wVEpYOx0ijGDlTep1MUVH.GKUflwpejSIuociqxnHCl7vhOWqPhrK',
+                'remember_token' => NULL,
+                'created_at' => '2018-07-01 13:46:33',
+                'updated_at' => '2018-07-01 13:46:33',
+            ),
+            31 => 
+            array (
+                'id' => 36,
+                'knowyc_id' => 59,
+                'name' => 'Igor',
+                'email' => 'ikcok@yahoo.com',
+                'password' => '$2y$10$IF6HNObrJp9WSV8L.8J.e.CsAy6uvZnNh8Pejm3i1xnaMsu2slQSK',
+                'remember_token' => NULL,
+                'created_at' => '2018-07-01 13:48:24',
+                'updated_at' => '2018-07-01 13:48:24',
+            ),
+            32 => 
+            array (
+                'id' => 37,
+                'knowyc_id' => 84,
+                'name' => 'Jeric',
+                'email' => 'jericpineda1819@gmail.com',
+                'password' => '$2y$10$Z3qSby0hP3aJKWMOSX/0ZOHnbGVVUUACf1jBiAK/.Dg2JlIZO94e2',
+                'remember_token' => NULL,
+                'created_at' => '2018-07-01 13:50:30',
+                'updated_at' => '2018-07-01 13:50:30',
+            ),
+            33 => 
+            array (
+                'id' => 38,
+                'knowyc_id' => 107,
+                'name' => 'Halil',
+                'email' => 'ilecqq@gmail.com',
+                'password' => '$2y$10$gsZWoCAKeFEPYgoYUum9..GSZuvV/duwcefX8pisXO9snPBZSGFre',
+                'remember_token' => NULL,
+                'created_at' => '2018-07-01 13:52:06',
+                'updated_at' => '2018-07-01 13:52:06',
+            ),
+            34 => 
+            array (
+                'id' => 39,
+                'knowyc_id' => 123,
+                'name' => 'Nguyen Thien',
+                'email' => 'thientay55@gmail.com',
+                'password' => '$2y$10$46ZMAfmBp2VP/4wrLjU/OuIfJXPJ4gbvuTUfYMQSYMZfacO.PzgUm',
+                'remember_token' => NULL,
+                'created_at' => '2018-07-01 13:52:45',
+                'updated_at' => '2018-07-01 13:52:45',
+            ),
+            35 => 
+            array (
+                'id' => 40,
+                'knowyc_id' => 132,
+                'name' => 'JUNG',
+                'email' => 'secret0x@daum.net',
+                'password' => '$2y$10$.Oy6uE4VWhAbdXGpEPuKsOo84LaHzuDUbV5u.0pG6L/rxKS9hJiA2',
+                'remember_token' => NULL,
+                'created_at' => '2018-07-01 13:52:46',
+                'updated_at' => '2018-07-01 13:52:46',
+            ),
+            36 => 
+            array (
+                'id' => 41,
+                'knowyc_id' => 38,
+                'name' => 'arse',
+                'email' => 'doffi.doflaminggo@gmail.com',
+                'password' => '$2y$10$OqTOhV79hlBFjbpkSrQ7iOr9Hb8IbOlxc4BO0zeIj4fTrUVId/fNW',
+                'remember_token' => NULL,
+                'created_at' => '2018-07-01 13:53:08',
+                'updated_at' => '2018-07-01 13:53:08',
+            ),
+            37 => 
+            array (
+                'id' => 42,
+                'knowyc_id' => 128,
+                'name' => 'Ihab',
+                'email' => 'ihabanbar77@gmail.com',
+                'password' => '$2y$10$RRxR2u/UswBh2AN3fLwx6eUx3qIDoTShEWdK1aLXBvSh8z1WVI7sy',
+                'remember_token' => NULL,
+                'created_at' => '2018-07-01 13:53:35',
+                'updated_at' => '2018-07-01 13:53:35',
+            ),
+            38 => 
+            array (
+                'id' => 43,
+                'knowyc_id' => 138,
+                'name' => 'Bagus',
+                'email' => 'bnulandani@gmail.com',
+                'password' => '$2y$10$gMzXRowwh54pq4F11mayQeRm592dYcpoUcKysyxS.otQjHkCiC.u2',
+                'remember_token' => NULL,
+                'created_at' => '2018-07-01 13:54:43',
+                'updated_at' => '2018-07-01 13:54:43',
+            ),
+            39 => 
+            array (
+                'id' => 44,
+                'knowyc_id' => 112,
+                'name' => 'Siarhei',
+                'email' => 'vsv260666@gmail.com',
+                'password' => '$2y$10$IEfU/ypx8Jjavx7kaaiwIeKFkqCgG3JHX/jlJD/35IpjYDjVk2ibq',
+                'remember_token' => NULL,
+                'created_at' => '2018-07-01 13:55:12',
+                'updated_at' => '2018-07-01 13:55:12',
+            ),
+            40 => 
+            array (
+                'id' => 45,
+                'knowyc_id' => 142,
+                'name' => 'Ahmed',
+                'email' => 'as140272@gmail.com',
+                'password' => '$2y$10$6x3r2QZNAA.uZz/T205o7unDVf1ZvPOalZbIDdzGpHAk2Nc4GzKVW',
+                'remember_token' => '9XMEzIshySmebbQUC1UNGqbTAmL7NKHQOYIaOZCRSyazlBoKxFhEMBYkz7UX',
+                'created_at' => '2018-07-01 13:57:37',
+                'updated_at' => '2018-07-01 13:57:37',
+            ),
+            41 => 
+            array (
+                'id' => 46,
+                'knowyc_id' => 150,
+                'name' => 'Олександр',
+                'email' => 'zavtrakbobra@gmail.com',
+                'password' => '$2y$10$IFA91H0RW28tD5SAUhJzlO/0iwovJ3DS.JqgAttT.Z.iphu3cUHny',
+                'remember_token' => NULL,
+                'created_at' => '2018-07-01 13:59:41',
+                'updated_at' => '2018-07-01 13:59:41',
+            ),
+            42 => 
+            array (
+                'id' => 47,
+                'knowyc_id' => 146,
+                'name' => 'Tran',
+                'email' => 'Cauutns@gmail.com',
+                'password' => '$2y$10$o7KLpqdWFY6jaOxr7Nu5wuBeM1w.xOf6rymEGmzSW5XuwYRSIwVs6',
+                'remember_token' => NULL,
+                'created_at' => '2018-07-01 14:00:36',
+                'updated_at' => '2018-07-01 14:00:36',
+            ),
+            43 => 
+            array (
+                'id' => 48,
+                'knowyc_id' => 68,
+                'name' => 'VIJISH',
+                'email' => 'vijishj5@gmail.com',
+                'password' => '$2y$10$TE7TEPEJwLdgdW7fC8aH2.wEcPtdUd/FpKLoxY3OeEWy74aAtcckq',
+                'remember_token' => 'G0d3B8SUeYCBYXQr4ICFuM1JdNKPZMoX8sDWlScpDcnFd4PZcPsv93dkd26C',
+                'created_at' => '2018-07-01 14:03:39',
+                'updated_at' => '2018-07-01 14:03:39',
+            ),
+            44 => 
+            array (
+                'id' => 49,
+                'knowyc_id' => 62,
+                'name' => 'James',
+                'email' => 'omologboakemegoh@gmail.com',
+                'password' => '$2y$10$pIlTuaxCAFr2BA1YOE93ueNA9vIomsuNQrNlZkwpPdP4RpD8yO406',
+                'remember_token' => NULL,
+                'created_at' => '2018-07-01 14:06:05',
+                'updated_at' => '2018-07-01 14:06:05',
+            ),
+            45 => 
+            array (
+                'id' => 50,
+                'knowyc_id' => 103,
+                'name' => 'Diep',
+                'email' => 'thaidiep19852018@gmail.com',
+                'password' => '$2y$10$r/q7SQKw2ils/FTtq3TpSuAxL8Ruja3Vs7bnx.GJz2A/06DjIzqEm',
+                'remember_token' => NULL,
+                'created_at' => '2018-07-01 14:07:44',
+                'updated_at' => '2018-07-01 14:07:44',
+            ),
+            46 => 
+            array (
+                'id' => 51,
+                'knowyc_id' => 147,
+                'name' => 'Sudrajat',
+                'email' => 'h31n4.1@gmail.com',
+                'password' => '$2y$10$xMmtX1TI7EJ8.EoF9Xexd.tfoqwjDYiT9BYzLGDm3vJtn0aR1kiSW',
+                'remember_token' => 'N3jcOA8BuhaTywKwhUhiSNwtPfNGQg2wMTQK5y0oR3RiydWQiaTIOddhh40Y',
+                'created_at' => '2018-07-01 14:08:57',
+                'updated_at' => '2018-07-01 14:08:57',
+            ),
+            47 => 
+            array (
+                'id' => 52,
+                'knowyc_id' => 106,
+                'name' => 'Nguyen Duy',
+                'email' => 'langtuchungtinh0608@gmail.com',
+                'password' => '$2y$10$YnVIENOmn06WXq1aFN0/Y.vgOQIAjO6DL2I11pTp9bIovySnUR4iq',
+                'remember_token' => NULL,
+                'created_at' => '2018-07-01 14:12:15',
+                'updated_at' => '2018-07-01 14:12:15',
+            ),
+            48 => 
+            array (
+                'id' => 53,
+                'knowyc_id' => 73,
+                'name' => 'Ugochukwu',
+                'email' => 'ugojaysly@gmail.com',
+                'password' => '$2y$10$K7nUet2vnTSmPhuF65hCpOVgYjuz8q.KPHagWeiY3ExcV.jcIxj5K',
+                'remember_token' => 'MvRWScUcD1a8ImlCddGFMK7BPyulN3bqrhELiI3zyhRn2YRUQ3zsytB1yFM8',
+                'created_at' => '2018-07-01 14:13:54',
+                'updated_at' => '2018-07-01 14:13:54',
+            ),
+            49 => 
+            array (
+                'id' => 54,
+                'knowyc_id' => 86,
+                'name' => 'Abubakar Sadick',
+                'email' => 'alarrys11@gmail.com',
+                'password' => '$2y$10$C0NxbuRBVATM5BjA3cZE/Ox8NrZK5wtAYVRM5ql1bp78C9wHIo1q.',
+                'remember_token' => NULL,
+                'created_at' => '2018-07-01 14:14:53',
+                'updated_at' => '2018-07-01 14:14:53',
+            ),
+            50 => 
+            array (
+                'id' => 55,
+                'knowyc_id' => 130,
+                'name' => 'Masaaki',
+                'email' => 'cl.kikurin.55@gmail.com',
+                'password' => '$2y$10$D10nvemrvHv.E/PWCxX3MeMRcjWbCbn2shJVrzok/QsKVz2bFcVHq',
+                'remember_token' => NULL,
+                'created_at' => '2018-07-01 14:21:23',
+                'updated_at' => '2018-07-01 14:21:23',
+            ),
+            51 => 
+            array (
+                'id' => 56,
+                'knowyc_id' => 157,
+                'name' => 'Resul',
+                'email' => 'airdrop3436@gmail.com',
+                'password' => '$2y$10$ihbaYfSrHIb7AgDiheG93O0.SuIL82j5jk5/mNkLZ02pI9h2w9feC',
+                'remember_token' => NULL,
+                'created_at' => '2018-07-01 14:30:33',
+                'updated_at' => '2018-07-01 14:30:33',
+            ),
+            52 => 
+            array (
+                'id' => 57,
+                'knowyc_id' => 97,
+                'name' => 'Vu',
+                'email' => 'thinsanbg7@gmail.com',
+                'password' => '$2y$10$8xt2D9r0Ft.B4i0hATgh8ejSnc08t.kczsrfF8PXP1uaDoxBS4c4u',
+                'remember_token' => NULL,
+                'created_at' => '2018-07-01 14:33:54',
+                'updated_at' => '2018-07-01 14:33:54',
+            ),
+            53 => 
+            array (
+                'id' => 58,
+                'knowyc_id' => 154,
+                'name' => 'PhuCuong',
+                'email' => 'daranibuathan@gmail.com',
+                'password' => '$2y$10$lySeKbrcr0U7NIvk12M5FeADlSHYsnRATGQ18urElG85BW5kwS.lm',
+                'remember_token' => NULL,
+                'created_at' => '2018-07-01 14:38:48',
+                'updated_at' => '2018-07-01 14:38:48',
+            ),
+            54 => 
+            array (
+                'id' => 59,
+                'knowyc_id' => 159,
+                'name' => 'Pascal',
+                'email' => 'pgsony87@gmail.com',
+                'password' => '$2y$10$aENqIPAKbIg2YV/Vgb/bW.N7/VhGvrQRgwIoB3dM2cPAZVa6AKduS',
+                'remember_token' => NULL,
+                'created_at' => '2018-07-01 14:55:16',
+                'updated_at' => '2018-07-01 14:55:16',
+            ),
+            55 => 
+            array (
+                'id' => 60,
+                'knowyc_id' => 102,
+                'name' => 'wahyu',
+                'email' => 'indra.abiz1@gmail.com',
+                'password' => '$2y$10$16l.zk30AI7gxdzaYaVCRu.rYkafmh/jFgOYcnpU9o1kgE0rScasO',
+                'remember_token' => NULL,
+                'created_at' => '2018-07-01 15:09:41',
+                'updated_at' => '2018-07-01 15:09:41',
+            ),
+            56 => 
+            array (
+                'id' => 61,
+                'knowyc_id' => 127,
+                'name' => 'Andrey',
+                'email' => 'airdrop5101@gmail.com',
+                'password' => '$2y$10$53r5R4UcE6MAo2aTHmThtO1oe/XAwg1wQz9O9xCj7SE4nbqa24.SK',
+                'remember_token' => NULL,
+                'created_at' => '2018-07-01 15:22:59',
+                'updated_at' => '2018-07-01 15:22:59',
+            ),
+            57 => 
+            array (
+                'id' => 62,
+                'knowyc_id' => 81,
+                'name' => 'Roman',
+                'email' => 'thetablockchain@gmail.com',
+                'password' => '$2y$10$dVcw8J/RlWYrDeUode6YReiwvQ7.lDjNZxHsYit.iQHNJj.xiUtXi',
+                'remember_token' => NULL,
+                'created_at' => '2018-07-01 15:30:34',
+                'updated_at' => '2018-07-01 15:30:34',
+            ),
+            58 => 
+            array (
+                'id' => 63,
+                'knowyc_id' => 108,
+                'name' => 'James',
+                'email' => 'james.a.calder@gmail.com',
+                'password' => '$2y$10$KOo6wv2Dj6uvgDmXjfSThOjxgaQcZWWHuc46IvC/HQamP8UkHVTcG',
+                'remember_token' => NULL,
+                'created_at' => '2018-07-01 15:32:18',
+                'updated_at' => '2018-07-01 15:32:18',
+            ),
+            59 => 
+            array (
+                'id' => 64,
+                'knowyc_id' => 72,
+                'name' => 'Archel',
+                'email' => 'archel010198@gmail.com',
+                'password' => '$2y$10$xbGqiO1C9Z5CEnnY2Q1XleHOVwcsSoxEXot.KhCPAiAE5GbqWClRS',
+                'remember_token' => NULL,
+                'created_at' => '2018-07-01 15:33:45',
+                'updated_at' => '2018-07-01 15:33:45',
+            ),
+            60 => 
+            array (
+                'id' => 65,
+                'knowyc_id' => 139,
+                'name' => 'RODOLFO',
+                'email' => 'd.rockmysoul28@gmail.com',
+                'password' => '$2y$10$WhessljaGT.iDLlBQwxLxewq5qhB9c1w1FXr0J/Hp90jYDxwcBnxm',
+                'remember_token' => 'RAdN5XNfjppe8OwqmU55YfixKTTu9iRAZajynX31R7DDeDkIckrgG0qUpR9b',
+                'created_at' => '2018-07-01 15:41:50',
+                'updated_at' => '2018-07-01 15:41:50',
+            ),
+            61 => 
+            array (
+                'id' => 66,
+                'knowyc_id' => 65,
+                'name' => 'Arpad',
+                'email' => 'arpad.balint03@gmail.com',
+                'password' => '$2y$10$Vi4AWCGgOQh5YA/SgRq9Lub29403VzR/Y0EOUdZ.kXjQKexUV6DO.',
+                'remember_token' => NULL,
+                'created_at' => '2018-07-01 15:50:06',
+                'updated_at' => '2018-07-01 15:50:06',
+            ),
+            62 => 
+            array (
+                'id' => 67,
+                'knowyc_id' => 57,
+                'name' => 'Sijuade',
+                'email' => 'onekinggy@gmail.com',
+                'password' => '$2y$10$arWBF31nhT/mXnnOP/2sEOOkYdvIWaXELnx1B5zRxns7fwHmA7jnG',
+                'remember_token' => NULL,
+                'created_at' => '2018-07-01 15:52:39',
+                'updated_at' => '2018-07-01 15:52:39',
+            ),
+            63 => 
+            array (
+                'id' => 68,
+                'knowyc_id' => 126,
+                'name' => 'sang',
+                'email' => 'tinyhunter111@gmail.com',
+                'password' => '$2y$10$jAbaZynf52sR1h/YGRQmne2q2Wr5yN64s.qE8sbD04ufA5tVKCdvq',
+                'remember_token' => NULL,
+                'created_at' => '2018-07-01 16:01:15',
+                'updated_at' => '2018-07-01 16:01:15',
+            ),
+            64 => 
+            array (
+                'id' => 69,
+                'knowyc_id' => 23,
+                'name' => 'Trong',
+                'email' => 'trongdesigner1990@gmail.com',
+                'password' => '$2y$10$YNdh8CjvQ9nDNXQBvPWh5u55DGdBXoFbsEQ3v6O0EthHHZEFNDIRC',
+                'remember_token' => NULL,
+                'created_at' => '2018-07-01 16:31:13',
+                'updated_at' => '2018-07-01 16:31:13',
+            ),
+            65 => 
+            array (
+                'id' => 70,
+                'knowyc_id' => 12,
+                'name' => 'Nhan',
+                'email' => 'vtuyet2@gmail.com',
+                'password' => '$2y$10$ATPOYWN26DK.9EwwugkIU.JV8GF1Ex5q5.qv.w.eSaRDF9WR44hVq',
+                'remember_token' => NULL,
+                'created_at' => '2018-07-01 16:33:26',
+                'updated_at' => '2018-07-01 16:33:26',
+            ),
+            66 => 
+            array (
+                'id' => 71,
+                'knowyc_id' => 82,
+                'name' => 'David Chigozie',
+                'email' => 'jingehwapa@gmail.com',
+                'password' => '$2y$10$hPXdfx8WENQ2l8AnUuANuO6Mbk3srdYq7wK2Tzu2sfSNAeP4MN8Wi',
+                'remember_token' => NULL,
+                'created_at' => '2018-07-01 16:48:18',
+                'updated_at' => '2018-07-01 16:48:18',
+            ),
+            67 => 
+            array (
+                'id' => 72,
+                'knowyc_id' => 92,
+                'name' => 'Karolina',
+                'email' => 'tarashkevichk@gmail.com',
+                'password' => '$2y$10$sQALo0sMlIbcYW24vxf5dupVfrWR3O1zZYNtCiXtRX1spo0oZKq7i',
+                'remember_token' => NULL,
+                'created_at' => '2018-07-01 16:58:27',
+                'updated_at' => '2018-07-01 16:58:27',
+            ),
+            68 => 
+            array (
+                'id' => 73,
+                'knowyc_id' => 160,
+                'name' => 'gumilar',
+                'email' => 'earth.egreendo@gmail.com',
+                'password' => '$2y$10$3GoXV8jmCL7eXcbsHWM4puHxuIVMICYIQIhcDzCgawQxxFEzgxc2G',
+                'remember_token' => NULL,
+                'created_at' => '2018-07-01 17:12:01',
+                'updated_at' => '2018-07-01 17:12:01',
+            ),
+            69 => 
+            array (
+                'id' => 74,
+                'knowyc_id' => 122,
+                'name' => 'Gurvinder',
+                'email' => 'rohitpratap113@gmail.com',
+                'password' => '$2y$10$KaH65kwlXoPd4K6I/vPbY.Qbc4o04mgmzAOkh9jqAfXeg07913Q1K',
+                'remember_token' => NULL,
+                'created_at' => '2018-07-01 17:12:14',
+                'updated_at' => '2018-07-01 17:12:14',
+            ),
+            70 => 
+            array (
+                'id' => 75,
+                'knowyc_id' => 125,
+                'name' => 'Mahdie',
+                'email' => 'mahdie_salwang@yahoo.com',
+                'password' => '$2y$10$c0TOqI74YcyoNnNW43ZQE.bDVdiIXYS302F9klhsP58kDnrzYZ.fS',
+                'remember_token' => NULL,
+                'created_at' => '2018-07-01 17:18:54',
+                'updated_at' => '2018-07-01 17:18:54',
+            ),
+            71 => 
+            array (
+                'id' => 76,
+                'knowyc_id' => 145,
+                'name' => 'pham ngoc',
+                'email' => 'congago134@gmail.com',
+                'password' => '$2y$10$6BNI.jHo4I3uycPya8nwcejF0gTPDU1zsMws7o7gfnuvXnQijCUqq',
+                'remember_token' => NULL,
+                'created_at' => '2018-07-01 17:47:41',
+                'updated_at' => '2018-07-01 17:47:41',
+            ),
+            72 => 
+            array (
+                'id' => 77,
+                'knowyc_id' => 124,
+                'name' => 'CLAUVERT',
+                'email' => 'MANYACLAUVERT23@GMAIL.COM',
+                'password' => '$2y$10$WSxbM4KE4qelL9uiB51qvuxMW7bfMNFJ.m6Pp2KevQ.Yx3ug/aGNq',
+                'remember_token' => NULL,
+                'created_at' => '2018-07-01 17:48:40',
+                'updated_at' => '2018-07-01 17:48:40',
+            ),
+            73 => 
+            array (
+                'id' => 78,
+                'knowyc_id' => 98,
+                'name' => 'chen',
+                'email' => 'cy71074855@gmail.com',
+                'password' => '$2y$10$5QFR/4Cn14V/luIsnSDomOt7tlVA88Gd1FUmcJR5G0sjvDqGPtjjq',
+                'remember_token' => NULL,
+                'created_at' => '2018-07-01 18:32:28',
+                'updated_at' => '2018-07-01 18:32:28',
+            ),
+            74 => 
+            array (
+                'id' => 79,
+                'knowyc_id' => 116,
+                'name' => 'Atish',
+                'email' => 'atishmd.dhakate@gmail.com',
+                'password' => '$2y$10$j60DExHQ76DwuaytVSZOKeSFYEPcIB4f41BMTe2qytCCKr1fX6B.y',
+                'remember_token' => 'qEaQCWPHzre19TYRiBySla5bvv9INybx3sFOtngXf4JH6BHKc6LBuyjoCVI1',
+                'created_at' => '2018-07-01 18:37:30',
+                'updated_at' => '2018-07-01 18:37:30',
+            ),
+            75 => 
+            array (
+                'id' => 80,
+                'knowyc_id' => 96,
+                'name' => 'Emmanuel',
+                'email' => 'elekan63@gmail.com',
+                'password' => '$2y$10$fz49uj/87NSIcuMpMMf78e3lnKIoVI159wFj59AvYlT9UppffSale',
+                'remember_token' => '4MNUkpnv6p1ywtlM77QaPOrkvftARSm3k0nrMUcpM6MvECYr52KCoMuqVODL',
+                'created_at' => '2018-07-01 18:41:55',
+                'updated_at' => '2018-07-01 18:41:55',
+            ),
+            76 => 
+            array (
+                'id' => 81,
+                'knowyc_id' => 109,
+                'name' => 'Abubakar',
+                'email' => 'a.isahmuhammad@yahoo.com',
+                'password' => '$2y$10$90QoWuOR/UiFssLUGAZP3.3dT13vWC2Q23C550.JUVBBC8v3xdK5a',
+                'remember_token' => NULL,
+                'created_at' => '2018-07-01 19:42:09',
+                'updated_at' => '2018-07-01 19:42:09',
+            ),
+            77 => 
+            array (
+                'id' => 82,
+                'knowyc_id' => 118,
+                'name' => 'Andreas',
+                'email' => 'crypthy@gmail.com',
+                'password' => '$2y$10$DmeUcK5wm5eyiJK/Z.cr6e/hvV57lMfO5wnNvTIrrA9fl7Ke2vk5u',
+                'remember_token' => NULL,
+                'created_at' => '2018-07-01 20:15:27',
+                'updated_at' => '2018-07-01 20:15:27',
+            ),
+            78 => 
+            array (
+                'id' => 83,
+                'knowyc_id' => 71,
+                'name' => 'Vladislav',
+                'email' => 'vlad.starikovskiy.00@gmail.com',
+                'password' => '$2y$10$HJqWBqS/wsWG3fQIEe4oN.BYwwTa3OfyhQhJfU0dc1Of6CcD.zuWa',
+                'remember_token' => NULL,
+                'created_at' => '2018-07-01 20:57:08',
+                'updated_at' => '2018-07-01 20:57:08',
+            ),
+            79 => 
+            array (
+                'id' => 84,
+                'knowyc_id' => 110,
+                'name' => 'SWAPAN',
+                'email' => 'Swapanpal1008@gmail.com',
+                'password' => '$2y$10$8mCAYfgXd1q1f6w8K8o0IO7j9/uPRPADqMd3.ignAgxLM.hFB2QzW',
+                'remember_token' => NULL,
+                'created_at' => '2018-07-01 21:02:32',
+                'updated_at' => '2018-07-01 21:02:32',
+            ),
+            80 => 
+            array (
+                'id' => 85,
+                'knowyc_id' => 28,
+                'name' => 'Luc',
+                'email' => 'crypto-monnaie@luc-mergault.fr',
+                'password' => '$2y$10$kvSUWLK47PMc7iLTS6NdL.6fvCs1i1KYWQH.nfvhoWcLf1bdpQNo2',
+                'remember_token' => NULL,
+                'created_at' => '2018-07-01 21:17:34',
+                'updated_at' => '2018-07-01 21:17:34',
+            ),
+            81 => 
+            array (
+                'id' => 86,
+                'knowyc_id' => 121,
+                'name' => 'DANIEL',
+                'email' => 'abiaraising@gmail.com',
+                'password' => '$2y$10$/LdtXTzRBubeIy8sv7q30.LBBS2jDpJcjBTnFwz4Alu6LChBEzs8O',
+                'remember_token' => NULL,
+                'created_at' => '2018-07-01 21:55:03',
+                'updated_at' => '2018-07-01 21:55:03',
+            ),
+            82 => 
+            array (
+                'id' => 87,
+                'knowyc_id' => 22,
+                'name' => 'Valentine',
+                'email' => 'chukwuval00@gmail.com',
+                'password' => '$2y$10$4hGBh9xLk9ccNdjHEyuzze1Xk3Nl7/3Pi.hl.gMGzjPGfv3w05r5u',
+                'remember_token' => NULL,
+                'created_at' => '2018-07-01 22:54:56',
+                'updated_at' => '2018-07-01 22:54:56',
+            ),
+            83 => 
+            array (
+                'id' => 88,
+                'knowyc_id' => 64,
+                'name' => 'ANGEL',
+                'email' => 'ingangelrodriguez5@gmail.com',
+                'password' => '$2y$10$L7bndddwMHfRgh6qCO6Ln.ro.Dq/HytiO0pD/zIMyXR5R1qr7.onC',
+                'remember_token' => 'L4cjjzbFogKbgTrbiMmjEmrc20JSWlPwFea2E9mCsZLvHr8jYxgd2uWfisKf',
+                'created_at' => '2018-07-01 23:55:18',
+                'updated_at' => '2018-07-01 23:55:18',
+            ),
+            84 => 
+            array (
+                'id' => 89,
+                'knowyc_id' => 161,
+                'name' => 'Huy',
+                'email' => 'mambo012001@gmail.com',
+                'password' => '$2y$10$8tb5WGMK7yJ48O2m6AR9P.rIhEYdv/xrT/m.pUIMZoq2LLFAdwiAm',
+                'remember_token' => NULL,
+                'created_at' => '2018-07-02 00:00:25',
+                'updated_at' => '2018-07-02 00:00:25',
+            ),
+            85 => 
+            array (
+                'id' => 90,
+                'knowyc_id' => 30,
+                'name' => 'phuong',
+                'email' => 'phamhuuphuong1985@gmail.com',
+                'password' => '$2y$10$RVkorxKEhnqL5khyVVJ3W.MywHA6uqNiL5HbPhg.A0a/SyeGlSFb.',
+                'remember_token' => NULL,
+                'created_at' => '2018-07-02 00:05:45',
+                'updated_at' => '2018-07-02 00:05:45',
+            ),
+            86 => 
+            array (
+                'id' => 91,
+                'knowyc_id' => 134,
+                'name' => 'Allan',
+                'email' => 'mobilelegendbruno@gmail.com',
+                'password' => '$2y$10$Omw08LXlVcjtkJlGYXbjeODufXdPVw708pKsNG1HbrReIJYmDyzkW',
+                'remember_token' => NULL,
+                'created_at' => '2018-07-02 01:01:48',
+                'updated_at' => '2018-07-02 01:01:48',
+            ),
+            87 => 
+            array (
+                'id' => 92,
+                'knowyc_id' => 63,
+                'name' => 'Le',
+                'email' => 'maxtin.steven901@gmail.com',
+                'password' => '$2y$10$meGAWEuebWrvBluV3bJRx.PlDDkID4pmLGThp0uktxA0OgwmmrVHu',
+                'remember_token' => NULL,
+                'created_at' => '2018-07-02 01:43:39',
+                'updated_at' => '2018-07-02 01:43:39',
+            ),
+            88 => 
+            array (
+                'id' => 93,
+                'knowyc_id' => 140,
+                'name' => 'Truong',
+                'email' => 'lehungdnvn@gmail.com',
+                'password' => '$2y$10$gG61q4fb/rsjN.ZYlUcJ3.JrqZTIqPWI5yRVF.WbRf3RtICVd4IbO',
+                'remember_token' => 'nPx22ei0BH6NqWIw9o2nQpVtmMbsUxsmIWjd0V1mCkiZlQWQtjIIJkyoXvik',
+                'created_at' => '2018-07-02 02:05:33',
+                'updated_at' => '2018-07-02 02:05:33',
+            ),
+            89 => 
+            array (
+                'id' => 94,
+                'knowyc_id' => 155,
+                'name' => 'pham',
+                'email' => 'phamxuantruong2211@gmail.com',
+                'password' => '$2y$10$4NMP63z8/6mUrQ9Q6eIK6OmcMjOld7aOiKJE2IzN2yRk8qAYUAT4e',
+                'remember_token' => NULL,
+                'created_at' => '2018-07-02 03:09:46',
+                'updated_at' => '2018-07-02 03:09:46',
+            ),
+            90 => 
+            array (
+                'id' => 95,
+                'knowyc_id' => 111,
+                'name' => 'Roy Budi',
+                'email' => 'royprolink7@gmail.com',
+                'password' => '$2y$10$tdHdTdUgFUPRgItnancUH.WuFk9SYeLdMHRdfasPmMrNvk/52W.oi',
+                'remember_token' => NULL,
+                'created_at' => '2018-07-02 05:17:57',
+                'updated_at' => '2018-07-02 05:17:57',
+            ),
+            91 => 
+            array (
+                'id' => 96,
+                'knowyc_id' => 78,
+                'name' => 'arnaud',
+                'email' => 'a.coyard23@gmail.com',
+                'password' => '$2y$10$khkjo1N3xImNOVBjHiyVtuLHcSva5fi0Oz.u82FAyvNYczrNgEPZa',
+                'remember_token' => NULL,
+                'created_at' => '2018-07-02 06:26:47',
+                'updated_at' => '2018-07-02 06:26:47',
+            ),
+            92 => 
+            array (
+                'id' => 97,
+                'knowyc_id' => 131,
+                'name' => 'Ryhor',
+                'email' => 'ryhor1411@gmail.com',
+                'password' => '$2y$10$9ya/kaUB5dljrZzrnZ2LJe2m9y5byssozzmdpZV7vqu11s1mGmRL.',
+                'remember_token' => NULL,
+                'created_at' => '2018-07-02 07:42:15',
+                'updated_at' => '2018-07-02 07:42:15',
+            ),
+            93 => 
+            array (
+                'id' => 98,
+                'knowyc_id' => 162,
+                'name' => 'Muhammad Umer',
+                'email' => 'omer.ptml@gmail.com',
+                'password' => '$2y$10$Hf4applPx2DFZFEfbakYZOPSNapG92b/8Sh.6.WUYtlxoSYtr.T4C',
+                'remember_token' => NULL,
+                'created_at' => '2018-07-02 08:17:30',
+                'updated_at' => '2018-07-02 08:17:30',
+            ),
+            94 => 
+            array (
+                'id' => 99,
+                'knowyc_id' => 148,
+                'name' => 'Dinh Viet',
+                'email' => 'sndinhviet1988@gmail.com',
+                'password' => '$2y$10$A1RsrKchlUUbVxNW7d3oeOBuFkzVGOdZPvKD/jg.lwnz/w2iDvP7m',
+                'remember_token' => NULL,
+                'created_at' => '2018-07-02 08:34:44',
+                'updated_at' => '2018-07-02 08:34:44',
+            ),
+            95 => 
+            array (
+                'id' => 100,
+                'knowyc_id' => 94,
+                'name' => 'Elena',
+                'email' => 'raisebitcoin@yandex.ru',
+                'password' => '$2y$10$hJLFH/zQKEZQhyC7MXzQP.mA3XvC9DRlmVKnk1Xkuf38jUe/nE3be',
+                'remember_token' => NULL,
+                'created_at' => '2018-07-02 09:05:55',
+                'updated_at' => '2018-07-02 09:05:55',
+            ),
+            96 => 
+            array (
+                'id' => 101,
+                'knowyc_id' => 105,
+                'name' => 'Hoang',
+                'email' => 'cute41193@gmail.com',
+                'password' => '$2y$10$.xP5YvszURZmFBtMBOc/MOTTFhZPYcvVYZVtClqmpe4j.F3y0pd.a',
+                'remember_token' => '4UB3AjMhDkfolIF4gfdWRityLgjaE3pMSG9346oEqf1hbFphp1uS12BXbX9z',
+                'created_at' => '2018-07-02 09:22:35',
+                'updated_at' => '2018-07-02 09:22:35',
+            ),
+            97 => 
+            array (
+                'id' => 102,
+                'knowyc_id' => 45,
+                'name' => 'Evgenii',
+                'email' => 'evgeniipomogov@gmail.com',
+                'password' => '$2y$10$lkoOyuw1l5tzZzZrCa.kveyiwfYCk6srTKWMr7yAY/64.wyGniLku',
+                'remember_token' => NULL,
+                'created_at' => '2018-07-02 11:43:21',
+                'updated_at' => '2018-07-02 11:43:21',
+            ),
+            98 => 
+            array (
+                'id' => 103,
+                'knowyc_id' => 54,
+                'name' => 'Gideon',
+                'email' => 'justairdrop2018@gmail.com',
+                'password' => '$2y$10$BKqc2BxTpXZsbQN82HxsSuxuB2CHilEp.PcdQ4efaG5R3FUVVsmIO',
+                'remember_token' => NULL,
+                'created_at' => '2018-07-02 14:22:29',
+                'updated_at' => '2018-07-02 14:22:29',
+            ),
+            99 => 
+            array (
+                'id' => 104,
+                'knowyc_id' => 53,
+                'name' => 'Siwa',
+                'email' => 'siwaprommin@gmail.com',
+                'password' => '$2y$10$izUvg8xPxPIzbsvl8ZxZTu6nKsIExDJixSPLX5iRVcRumDiM8ZPFC',
+                'remember_token' => NULL,
+                'created_at' => '2018-07-02 21:30:33',
+                'updated_at' => '2018-07-02 21:30:33',
+            ),
+            100 => 
+            array (
+                'id' => 105,
+                'knowyc_id' => 137,
+                'name' => 'ho dat',
+                'email' => 'hodatdunggamecoin@gmail.com',
+                'password' => '$2y$10$9OVGp0m1KSCj25fkA2COveYariNC8y2HsbxnFi8xzaNjtzjqpQBni',
+                'remember_token' => NULL,
+                'created_at' => '2018-07-03 03:51:13',
+                'updated_at' => '2018-07-03 03:51:13',
+            ),
+            101 => 
+            array (
+                'id' => 106,
+                'knowyc_id' => 60,
+                'name' => 'Deni',
+                'email' => 'denisetiaonez@gmail.com',
+                'password' => '$2y$10$8r81/bRvGlfnhmP45o.7R.yOnEKwzCw5MX7ZENuGoo7EYB2s89YdO',
+                'remember_token' => NULL,
+                'created_at' => '2018-07-03 05:23:20',
+                'updated_at' => '2018-07-03 05:23:20',
+            ),
+            102 => 
+            array (
+                'id' => 107,
+                'knowyc_id' => 149,
+                'name' => 'roberto',
+                'email' => 'tmyv15@gmail.com',
+                'password' => '$2y$10$ttiPOuSkI4sp.roHC3yftOB83suKt2f7Jaf/VNzqT4Detsz8R.3yO',
+                'remember_token' => 'J9Nc5bgT9IfxhgCL6uBuMvtvnvj1MD15jjpK0aYE5jxpWvHO1EGLgSBxA3M9',
+                'created_at' => '2018-07-04 17:41:57',
+                'updated_at' => '2018-07-04 17:41:57',
+            ),
+            103 => 
+            array (
+                'id' => 108,
+                'knowyc_id' => 133,
+                'name' => 'Long',
+                'email' => 'longcqt@gmail.com',
+                'password' => '$2y$10$hl1JlGDbFn0CUBnt8qkABuyiqG9Gvn5jgRI2P9qY/3wgolld1.W.C',
+                'remember_token' => NULL,
+                'created_at' => '2018-07-05 09:06:01',
+                'updated_at' => '2018-07-05 09:06:01',
+            ),
+        ));
+        
+        
+    }
+}
