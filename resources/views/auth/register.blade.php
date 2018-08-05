@@ -12,10 +12,10 @@
                         @csrf
 
                         <div class="form-group row">
-                            <label for="name" class="col-md-4 col-form-label text-md-right">{{ __('First Name') }}</label>
+                            <label for="name" class="col-md-4 col-form-label text-md-right">{{ __('Name') }}</label>
 
                             <div class="col-md-6">
-                                <input readonly id="name" type="text" class="form-control{{ $errors->has('name') ? ' is-invalid' : '' }}" name="name" value="{{ $info->firstname }}" required autofocus>
+                                <input readonly id="name" type="text" class="form-control{{ $errors->has('name') ? ' is-invalid' : '' }}" name="name" value="{{ $info->lastname." ".$info->firstname }}" required autofocus>
                                 <input type="hidden" name="knowyc_id" value="{{ $info->id }}"/>
                                 @if ($errors->has('name'))
                                     <span class="invalid-feedback" role="alert">
