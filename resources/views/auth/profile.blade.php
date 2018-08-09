@@ -1,9 +1,11 @@
 @extends('layouts.app_nologo')
-@include("layouts.balance_navbar")
+
 @section('title', 'Balance') 
 
 @section('content')
- <div class="bg c_margin profile_font">
+<div class="row" style="background-color: transparent; height: 100px;">
+        </div>
+ <div class="bg c_margin profile_font" style="height:80vh">
      <div class="container"><br>
         <div class="row" style="padding: 3% 5% 0 5%">
                 <p class="normal_font"><b>Account Profile</b></p>
@@ -70,5 +72,7 @@
      </div>
         <br><br><br><br>
  </div>
+ <div class="fixed-bottom">
  @include("partials.footer")
+</div>
 @endsection

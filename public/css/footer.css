@@ -61,11 +61,16 @@
     .mfooter {
         margin: 20px 5px 0 10px;
     }
+    .footer_padding{
+        padding-left: 0px!important;
+    }
 }
-
+.footer_padding{
+    padding-left: 100px;
+}
 .footer_colorline{
     background: linear-gradient(to right, #3399ff, #b3daff, #ffdccc,#ff9966);
-    padding: 5px 0;
+    padding: 3px 0;
 }
 .footer_logo{
     padding: 20px;

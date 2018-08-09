@@ -3,18 +3,20 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.1.0/socket.io.js"></script>
 
 <nav>
-    <div class="row controller">
-        <div id="clock"><i class="far fa-clock"></i>&nbsp; @{{ date }} | @{{ time }}</div>
-        <div id="order">
+    <div class="row controller fixed-top">
+        <div class="nav_padding">
+        <span class="far fa-clock"></span>&nbsp; <span id="clock">@{{ date }} | @{{ time }}</span>
+        <span id="order">
             <span>Bitcoin $@{{Math.round(orderbooks.Binance.btcusd.bid*10000)/10000}} &nbsp; | &nbsp;</span>
             <span>Ethereum $@{{Math.round(orderbooks.Binance.ethusd.bid*10000)/10000}} &nbsp; | &nbsp;</span>
             <span>Ripple $@{{Math.round(orderbooks.Binance.xrpusd.bid*10000)/10000}}</span>
+        </span>
         </div>
     </div>
 </nav>
-
-<nav id="home" class="navbar  navbar-default fixed-top navbar-shadow navbar-expand-lg navbar-shadow background-white">
-    <div class="container phone_container" style="max-width:1280;">
+{{-- <div id="particles-js2"></div> --}}
+<nav id="particles-js3" class="navbar  navbar-default fixed-top navbar-expand-lg">
+    <div class="container phone_container" style="max-width:1920;">
         <a class="navbar-brand-mat" href="#">
             {{-- <img src="images/Token.png" class="img-fluid" alt="Responsive image" height="40px" width="40px"> --}}
         </a>

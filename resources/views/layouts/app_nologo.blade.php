@@ -6,32 +6,25 @@
     <title>CryptovationX | @yield('title')</title>
 </head>
 
-<body class="royal_preloader background-white" data-spy="scroll" data-target=".navbar" data-offset="70">
+<body class="royal_preloader " data-spy="scroll" data-target=".navbar" data-offset="70">
 
     <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KZ5ZCBM"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KZ5ZCBM" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
     <!-- End Google Tag Manager (noscript) -->
-        <div id="royal_preloader"></div>
-        
+    <div id="royal_preloader"></div>
+
+
+
+    <div id="particles-js"></div>
+    
+    @include("layouts.balance_navbar")
+
+    @yield("content") 
+    
     @include("partials.scripts")
 
-        <div id="particles-js"></div>
-    
-
-            {{-- <a target="_blank"><img src="{{ asset('images/fulltoplogo.png') }}" class="logo"></a> --}}
-
-
-            {{-- <p class="logofont">"The Best Friend for Crypto Investors"</p> --}}
-
-
-                @yield("content") 
-    <script>
-    window.Laravel = <?php echo json_encode([
-    'csrfToken' => csrf_token(),
-    ]); ?>
-    
-    </script>
 
 </body>
 

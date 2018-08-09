@@ -1,8 +1,10 @@
 @extends('layouts.app_nologo')
-@include("layouts.balance_navbar")
+
 @section('title', 'Balance') 
 
 @section('content')
+
+<div class="emergency_row"></div>
  <div class="bg c_margin">
      <div class="container">
          {{-- Announcement --}}
@@ -115,6 +117,7 @@
     </div>
         <br><br><br><br>
 </div>
+
 @include("partials.footer")
 <script>
     // Modal announcement
