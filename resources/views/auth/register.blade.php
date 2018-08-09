@@ -60,10 +60,20 @@
                                 <input id="password-confirm" type="password" class="form-control" name="password_confirmation" required>
                             </div>
                         </div>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12 kycmargin">
+                                    
+                                    <input type="checkbox" name="terms" id="terms" />
+                                    <span>I acknowledge that I have read the Token Sale <a href="https://cryptovationx.io/cxa-terms-conditions" target="_blank">Terms and Conditions</a>, <a href="https://cryptovationx.io/privacy-policy" target="_blank">Privacy Policy</a>, <a href="https://cryptovationx.io/website-terms-of-use" target="_blank">Website Terms of Use</a> and agree to be bound by them.</span>
+                                </div>
+                            </div>
+                        </div>
 
+                        <br>
                         <div class="form-group row mb-0">
                             <div class="col-md-6 offset-md-4">
-                                <button type="submit" class="btn btn-primary">
+                                <button id="submitbut" type="submit" class="btn btn-primary" disabled>
                                     {{ __('Save Password') }}
                                 </button>
                             </div>
@@ -74,4 +84,17 @@
         </div>
     </div>
 </div>
+
+<script>
+    $('#terms').click(function () {
+    //check if checkbox is checked
+    if ($(this).is(':checked')) {
+        
+        $('#submitbut').removeAttr('disabled'); //enable input
+        
+    } else {
+        $('#submitbut').attr('disabled', true); //disable input
+    }
+});
+</script>
 @endsection
