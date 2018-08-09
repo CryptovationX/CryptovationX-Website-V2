@@ -1,3 +1,44 @@
+@media screen and (max-width:800px){
+    .phone_container{
+        max-width: 690!important;
+    }
+}
+@media screen and (max-width:750px){
+    .phone_container{
+        margin-left: -30px;
+    }
+    .ticker_margin {
+        margin-bottom: 70px;
+    }
+    .navbar-brand-mat {
+        margin-top: 10px;
+    }
+    .ticker_margin span {
+        font-size: 6px;
+    }
+    .controller{
+        font-size: 8px!important;
+    }
+    .navbar-brand-mat {
+        padding-left: 50px!important;
+        padding-top: 10px!important;
+    }
+    .hambtn {
+        padding-right: 10px!important;
+    }
+    .nav_pic{
+        width: 130px!important;
+    }
+
+}
+.controller {
+    top: 0;
+    color: white;
+    background-color: black;
+    font-size: 14px;
+    padding: 0 30px;
+    font-family:'Open Sans';
+}
 .navbar-shadow{
     box-shadow: 5px 9px 25px 0 rgba(0, 0, 0, 0.05);
   }
@@ -15,7 +56,8 @@
     font-family: 'Open Sans', sans-serif !important;
     font-size: 14px;
     background: transparent;
-    /* text-transform: uppercase; */
+    padding-top: 30px;
+    transition: all .2s;
 }
 
 .navbar-default .navbar-nav>li>a {
@@ -39,6 +81,10 @@
 .navbar-default .navbar-nav>.open>a:hover {
     color: #000;
     background-color: transparent;
+}
+
+.nav_pic{
+    width: 200px;
 }
 
 .navbar-right {
@@ -106,3 +152,44 @@
 .hamdropdown a:hover {background-color: #ddd;}
 
 .show {display: block;}
+
+/* Navlogo */
+.nav_logo {
+    margin: 0 62px;
+    margin-right: 60px;
+    margin-top: 22px;
+    width: 200px;
+    display: block;
+}
+@media screen and (max-width:900px){
+    .nav_logo {
+        width: 375px;
+        padding: 75px 15px 50px 15px;
+    }
+}
+@media screen and (max-width:750px){
+    .nav_logo {
+        display: none;
+    }
+}
+
+/* Nav row */
+.nav_row{
+    background-color:transparent;
+    position: absolute;
+    /* text-align: right; */
+    /* padding: 20px 0; */
+    padding-top: 10px;
+}
+.nav_font{
+    color: white;
+    transition: 0.3s;
+    padding: 30px 70px 15px 0px;
+}
+.nav_font:hover{
+    color: #3399ff;
+    text-decoration: none;
+}
+#order{
+    margin-left: 25px;
+}
