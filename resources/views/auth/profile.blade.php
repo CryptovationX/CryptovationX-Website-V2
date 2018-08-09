@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.app_nologo')
 @include("layouts.balance_navbar")
 @section('title', 'Balance') 
 

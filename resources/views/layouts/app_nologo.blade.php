@@ -19,10 +19,10 @@
         <div id="particles-js"></div>
     
 
-            <a target="_blank"><img src="{{ asset('images/fulltoplogo.png') }}" class="logo"></a>
+            {{-- <a target="_blank"><img src="{{ asset('images/fulltoplogo.png') }}" class="logo"></a> --}}
 
 
-            <p class="logofont">"The Best Friend for Crypto Investors"</p>
+            {{-- <p class="logofont">"The Best Friend for Crypto Investors"</p> --}}
 
 
                 @yield("content") 
