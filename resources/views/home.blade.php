@@ -14,10 +14,35 @@
                         </div>
                     @endif
 
-                    You are logged in!
+                    <p>You are logged in!</p>   
+
+                    Redirecting in <span id="countdown">3</span> seconds
                 </div>
             </div>
         </div>
     </div>
 </div>
+
+<script type="text/javascript">
+    
+    // Total seconds to wait
+    var seconds = 3;
+    
+    function countdown() {
+        seconds = seconds - 1;
+        if (seconds < 0) {
+            // Chnage your redirection link here
+            window.location = "https://v2.cryptovationx.io";
+        } else {
+            // Update remaining seconds
+            document.getElementById("countdown").innerHTML = seconds;
+            // Count down using javascript
+            window.setTimeout("countdown()", 1000);
+        }
+    }
+    
+    // Run countdown function
+    countdown();
+    
+</script>
 @endsection
