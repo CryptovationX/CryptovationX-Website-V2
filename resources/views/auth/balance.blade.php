@@ -60,7 +60,7 @@
                 <div class="balance_border balance_tooltip light left token_application">
                     <div class="balance_padding normal_font" id="balance_myBtn">
                         <div class="header_copy center"><b>Balance</b></div> <br>
-                        <div class="center ">{{ $balance }}</div> <br>
+                        <div class="center "><b>{{ $balance }}</b></div> <br>
                         <div class="calendar_events ce_title center">CXA Tokens</div>
                         {{-- Tooltip text --}}
                         <span class="balance_tooltiptext">Click balance box to see the application of CXA</span>
@@ -122,7 +122,7 @@
 <script>
     // Modal announcement
     // Get the modal
-    var announcement_modal = document.getElementById('announcement_myModal');
+   var announcement_modal = document.getElementById('announcement_myModal');
    
    // Get the button that opens the modal
    var announcement_btn = document.getElementById("announcement_myBtn");

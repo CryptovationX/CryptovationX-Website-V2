@@ -17,7 +17,7 @@ class PageController extends Controller
         foreach (auth()->user()->knowyc->token as $key => $token) {
             $total += $token->total_token;
         }
-        return view('auth.balance')->withProfile(auth()->user()->knowyc)->withBalance($total);
+        return view('auth.balance')->withProfile(auth()->user()->knowyc)->withBalance(number_format($total, 8, '.', ','));
     }
 
     public function getTermsandconditions()
