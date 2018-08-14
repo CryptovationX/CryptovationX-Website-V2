@@ -7,6 +7,8 @@
 <body>
     @include ('layout.navbar')
     @include ('page.header')
+    @include ('page.vision')
+    @include ('page.project')
     @include ('page.robot')
     @include ('page.howitworks')
     @include ('page.blog')
