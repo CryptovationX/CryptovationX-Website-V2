@@ -1,88 +1,64 @@
 <!-- Begin Footer -->
-<div id="particles-js2"></div>
-<div class="footer_colorline"></div>
-<div class="footer_padding">
-    <div style="background-color: transparent">
+<footer style="background-color: transparent" class="footer-padding bottomReveal background-white" id="contact">
+    <div class="container">
         <div class="row">
-            <div class="col-5">
-                <a href="https://cryptovationx.io" target="_blank">
-                    <img src="{{ asset('images/fulltoplogo.png') }}" class="footer_logo">
+            <div class="col-sm-12 text-center icon-contact footerdot mt-8" >
+                <!-- <span class="icon-handle-streamline-vector logo"></span>
+    <h2 class="theme-title">Particles
+        <span class="theme-title-smaller">Theme</span>
+    </h2> -->
+
+                <a href="https://goo.gl/jeYoYT" id="medium-footer" target="_blank">
+                    <i id="medium-footer" class="fab fa-medium-m social-icons-dark-hover m-4 mfooter"></i>
                 </a>
-                <p class="footer_logofont">The Best Friend for Crypto Investors</p>
-                <div class="col-sm-12 col-sm-offset-2 icon-contact">
+                <a href="https://goo.gl/fUaBMR" id="telegram-footer" target="_blank">
+                    <i id="telegram-footer" class="fab fa-telegram-plane social-icons-dark-hover  m-4 mfooter"></i>
+                </a>
+                <a href="https://goo.gl/4dXUQ8" id="facebook-footer" target="_blank">
+                    <span  id="facebook-footer" class="fab fa-facebook social-icons-dark-hover m-4 mfooter"></span>
+                </a>
+                <a href="https://goo.gl/7zxm1w" id="twitter-footer" target="_blank">
+                    <span  id="twitter-footer" class="fab fa-twitter social-icons-dark-hover  m-4 mfooter"></span>
+                </a>
 
-                    <a href="https://twitter.com/CryptovationX?lang=en" target="_blank">
-                        <span class="fab fa-twitter social-icons-dark-hover   mfooter footer_width"></span>
-                    </a>
-                    <a href="https://t.me/joinchat/H2POp0-8T_X5FYBq_qfS6A" target="_blank">
-                        <i class="fab fa-telegram-plane social-icons-dark-hover   mfooter footer_width"></i>
-                    </a>
 
-                    <a href="https://github.com/cryptovationx" target="_blank">
-                        <i class="fab fa-github social-icons-dark-hover   mfooter footer_width"></i>
-                    </a>
+                <a href="https://github.com/cryptovationx" id="github-footer" target="_blank">
+                    <i  id="github-footer" class="fab fa-github social-icons-dark-hover  m50 mfooter"></i>
+                </a>
+                <!-- <a href="https://cryptovationx.slack.com/open">
+        <i class="fab fa-slack-hash social-icons-dark-hover  m50 mfooter"></i>
+    </a> -->
 
-                    <a href="https://medium.com/cryptovationx" target="_blank">
-                        <i class="fab fa-medium-m social-icons-dark-hover   mfooter footer_width"></i>
-                    </a>
-                    <a href="https://www.facebook.com/cryptovation.co/" target="_blank">
-                        <span class="fab fa-facebook-f social-icons-dark-hover   mfooter footer_width"></span>
-                    </a>
+                <!-- <a>
+        <i class="fab fa-google-plus social-icons-dark-hover  m50 mfooter"></i>
+    </a> -->
 
-                </div>
+
+                <a href="https://goo.gl/L994Hk"   target="_blank">
+                    <span id="ig-footer" class="fab fa-instagram social-icons-dark-hover  m50 mfooter"></span>
+                </a>
+                <!-- <a>
+            <i class="fa-reddit-alien social-icons-dark-hover  m50 mfooter"></i>
+    </a>
+    <a>
+            <i class="fa-bitcoin social-icons-dark-hover  m50 mfooter"></i>
+    </a> -->
+                <!-- <a>
+        <i class="fab fa-linkedin-in social-icons-dark-hover mr50 m50 mfooter"></i>
+    </a> -->
             </div>
-            <div class="col-2"></div>
-            <div class="col-4">
-                <div class="row">
-                    <div class="col-4 footer_column">
-                        <div style="padding-bottom:15px;">Product</div>
-                        <div style="padding-bottom:5px;">
-                            <a target="_blank" href="https://arbot.cryptovation.co/liveprices">Live Price</a>
-                        </div>
-                        <div style="padding-bottom:5px;">
-                            <a target="_blank" href="https://arbot.cryptovation.co/oneways/btc">One-way</a>
-                        </div>
-                        <div>
-                            <a target="_blank" href="https://arbot.cryptovation.co/loops/btceth">Loop</a>
-                        </div>
-                    </div>
-                    <div class="col-4 footer_column">
-                        <div style="padding-bottom:15px;">About</div>
-                        <div style="padding-bottom:5px;">
-                            <a target="_blank" href="https://arbot.cryptovation.co/">Arbot Terminal</a>
-                        </div>
-                        <div style="padding-bottom:5px;">
-                            <a target="_blank" href="http://ava.fund/">AVA Advisor</a>
-                        </div>
-                        <div>
-                            <a target="_blank" href="https://cryptovationx.io/whitepaper.pdf">White Paper</a>
-                        </div>
-
-                    </div>
-                    <div class="col-4 footer_column">
-                        <div style="padding-bottom:15px;">Agreement</div>
-                        <div>
-                            <a target="_blank" href="https://cryptovationx.io/terms-conditions">Terms & Conditions</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
         </div>
-
-
-
+        <div class="row">
+            <div class="col-sm-12 text-small text-center">
+                <hr>
+                <button type="button" id="up-footer" class="btn btnv-all btn-up-footer btn-lg scroll-top">Up</button>
+                <br>
+                <a class="company  mb20 descipt-people descipt-people bio " href="{{ action('PagesController@getTerms_Conditions') }}">Terms and Conditions</a><p class="no-margin copyright">&copy; 2018 CryptovationX Inc. All Right Reserved</p>
+            </div>
+            <!-- /.column -->
+        </div>
         <!-- /.row -->
     </div>
     <!-- /.container -->
-</div>
-
+</footer>
 <!-- /.footer -->
-<div class="row">
-    <div class="col-sm-12 col-sm-offset-2 text-small copyright_row">
-        {{--
-        <a href="https://cryptovationx.io/terms-conditions" target="_blank" class="terms copyright">Terms and Conditions</a> --}}
-        <div class="terms copyright">&copy; 2018 Cryptovation. All Right Reserved</div>
-    </div>
-    <!-- /.column -->
-</div>
