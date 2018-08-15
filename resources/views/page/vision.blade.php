@@ -1,54 +1,37 @@
-    <div class="background-apple1 pt-4 ">
-        <div class="container">
-                <div class="col-md-12 vision">
-                    <h2 class="top-x"></h2>
-                                    <p class="vision">Utilize Artificial Intelligence (AI) to Build the Best Robo-advisory Platform for <br>Blockchain
-                                        Investment with the Vision of
-                                        <strong>'Wealth for All'</strong>
-                                    </p>
-                                <span class="section-divider mt-3 mb-5 center"></span>
-                            </div>
+<div id="vision">
+        <div class="section">
+            <div class="container">
+                <div class="col-xs-12 text-center">
+                    <h2>Project Summary</h2>
+                    <span class="section-divider mb15php"></span>
                 </div>
-            
-            <div id="our-process" class="container container-fluid background-white">
+            </div>
+            <div id="our-process" class="container container-fluid ">
                 <div class="row">
-                    <div class="col-sm-4 col-md-4 col-lg-4 text-center pt-2 pb-2">
-                        <div class=" leftReveal">
-                            <img src="/images/Partner.png" id="arbi-image" alt="" width="80" class="robot robot2">
-                            <h5 class="pt-3">Experienced Partners</h5>
-                            <ul>
-                                <li class="more6">Cryptovation.co</li>
-                                <li class="more6">Ava Advisor</li>
-                                <li class="more6">Asia Wealth Group</li>
-                            </ul>
-                        </div>
+                    <div class="col-sm-8 col-md-8 col-lg-8 text-center pt10 pb10 ">
+                        <img src="https://s3-ap-southeast-1.amazonaws.com/cryptovationx/public/3iconsss.png" alt="Work" class="lightpaper-cover scaleReveal">
                     </div>
-                    <div class="col-sm-4 col-md-4 col-lg-4 text-center pt-2 pb-2">
-                        <div class=" bottomReveal">
-                            <img src="/images/Ai.png" id="specto-image" width="80px" class="robot robot2">
-                            <h5 class="pt-3">Artifcial Intelligence</h5>
-                            <ul>
-                                <li class="more6">Deep Learning</li>
-                                <li class="more6">Collective Intelligence</li>
-                                <li class="more6">Human Data Analysis</li>
-                            </ul>
+                    <div class="col-sm-4 mt30-xs rightReveal">
+                        <h5 class="heading-1 mb-1 what">CryptovationX Lite Paper</h5>
+                        <ul class="section-divider2 mb-2" role="tablist">
+                        </ul>
+                        <div class="tab-content tab-default tab-default whitepaper-border ">
+    
+                            <div class="active text-small" id="whitepaper1">
+                                <div class="thumbnail no-margin whitepaper">
+                                    <a id="Light Paper ENG" href="{{asset('litepaper.pdf')}}" target="_blank" role="button">
+                                        <img src="https://s3-ap-southeast-1.amazonaws.com/cryptovationx/public/lightpaper1.jpg" alt="Work" class="litepaper-show">
+                                        <!-- <img src="https://s3-ap-southeast-1.amazonaws.com/cryptovationx/public/lightpaper2.jpg" alt="Work" class="lightpaper-cover"> -->
+                                    </a>
+                                    <p style="text-align:center;">
+                                        <a class="btn btnv-all mt-3 mb-3" id="White Paper Top" href="https://s3-ap-southeast-1.amazonaws.com/cryptovationx/public/litepaper12.jpg"  target="_blank" role="button">Read Our Lite Paper</a>
+                                    </p>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-sm-4 col-md-4 col-lg-4 text-center pt-2 pb-2 no-border">
-                        <div class=" rightReveal">
-                            <img src="/images/Application.png" width="80px" class="robot robot2">
-                            <h5 class="pt-3">Mobile App Product</h5>
-                        </div>
-                            <ul>
-                                <li class="more6">iOS & Android Platform </li>
-                                <li class="more6">Gamifcation Design</li>
-                                <li class="more6">User-friendly Characters</li>
-                            </ul>
-                        </p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    </div>
-</section>
+    
