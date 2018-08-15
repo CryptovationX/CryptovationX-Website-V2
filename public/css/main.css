@@ -1844,3 +1844,508 @@ p.h6 {
     /* -webkit-box-shadow: 0 4px 32px 0 rgba(0,0,0,.175)!important;
     box-shadow:0 4px 32px 0 rgba(0,0,0,.175)!important; */
 }
+
+
+/* =Jumbotron Main
+-------------------------------------------------------------- */
+
+.jumbotron.jumbotron-main {
+    height: 950px;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    padding-top: 0;
+    padding-bottom: 0;
+    position: relative;
+    margin: 0;
+}
+
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /* z-index: -1; */
+    /* background-image: url("../images/top4.jpg");
+    background-repeat: no-repeat;
+    background-size:cover; */
+    /* background-position: 50% 50%;  */
+    /* background: #6819e8; */
+    /* Old browsers */
+    /* background: -moz-linear-gradient(left, #6819e8 0%, #7437d0 35%, #615fde 68%, #6980f2 100%); */
+    /* FF3.6-15 */
+    /* background: -webkit-linear-gradient(left, #6819e8 0%, #7437d0 35%, #615fde 68%, #6980f2 100%); */
+    /* Chrome10-25,Safari5.1-6 */
+    /* background: linear-gradient(to right, #6819e8 0%, #7437d0 35%, #615fde 68%, #6980f2 100%); */
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    /* filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6819e8', endColorstr='#6980f2', GradientType=1); */
+    /* IE6-9 */
+}
+
+.landingpage-top {
+    background-image: url(https://s3-ap-southeast-1.amazonaws.com/cryptovationx/public/pinbg.jpg);
+    background-color: #090c1b;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.top-ava {
+    background: linear-gradient(to right bottom, #9c4f9e, #5f3c96);
+    /* background-image: url(https://s3-ap-southeast-1.amazonaws.com/cryptovationx/public/avava.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+
+.top-arbot {
+    background-image: url(/images/dark.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+
+.problem-ava {
+    background-color: white;
+}
+
+
+/* =Jumbotron Register
+-------------------------------------------------------------- */
+
+.jumbotron.jumbotron-register {
+    height: 100%;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    padding-top: 0;
+    padding-bottom: 0;
+    position: relative;
+    margin: 0;
+}
+
+.jumbotron.jumbotron-register a {
+    color: #fff;
+}
+
+.register-form {
+    background-color: #FFFFFF;
+    padding: 40px;
+    border-radius: 5px;
+    border: 2px solid #eee;
+}
+
+.register-form h3 {
+    color: #414141;
+}
+
+.jumbotron.jumbotron-register h1 {
+    font-size: 59px;
+}
+
+.landingpage-top {
+    background-image: url(https://s3-ap-southeast-1.amazonaws.com/cryptovationx/public/pinbg.jpg);
+    background-color: #090c1b;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#homey {
+    padding: 0px;
+  }
+
+
+.border-image {
+    border-radius: 20px;
+    overflow: hidden;
+    width: 100%;
+    margin: auto;
+}
+
+@media screen and (min-width: 380px) {
+    .border-image {
+        border-radius: 20px;
+        overflow: hidden;
+        width: 85%;
+        margin: auto;
+    }
+}
+
+.intercon {
+    width: 100%;
+    color: white !important;
+}
+
+.intercon-text {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    text-align: center;
+}
+
+.white-text {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 5px;
+    margin-bottom: 0 !important;
+}
+
+.white-text2 {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 5px;
+    margin-bottom: 0 !important;
+}
+
+/*------------------------------------------------------ AVA PATH end-------------------------------------------------------------- */
+
+.jumbotron.jumbotron-main hr {
+    border-width: 1px 0px;
+    border-style: dotted none;
+    border-color: rgba(255, 255, 255, 0.35);
+    -moz-border-top-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    border-image: none;
+    width: 49px;
+    height: 4px;
+    text-align: center;
+    position: relative;
+    clear: both;
+}
+
+.jumbotron.jumbotron-main a {
+    color: #fff;
+}
+
+.center-vertically {
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+}
+
+.center-vertically-holder {
+    display: table;
+    height: 100%;
+}
+
+.scroll-indicator {
+    padding-top: 6px;
+    display: inline-block;
+    width: 50px;
+}
+
+.arrow-scroll-indicator {
+    font-size: 10px;
+    color: rgba(255, 255, 255, 0.60);
+}
+
+.parallax-window {
+    background: transparent;
+}
+
+
+@media screen and (min-width: 460px) {
+    .jumbotron.jumbotron-main {
+        height: 1000px;
+    }
+}
+
+@media screen and (min-width: 560px) {
+    .jumbotron.jumbotron-main {
+        height: 1050px;
+    }
+}
+
+@media screen and (min-width: 640px) {
+    .jumbotron.jumbotron-main {
+        height: 1100px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .jumbotron.jumbotron-main {
+        height: 800px;
+    }
+    .center-top {
+        display: flex;
+    }
+}
+
+.center-top {
+    justify-content: center;
+    align-items: center;
+}
+
+.jumbotron.jumbotron-main1 {
+    height: 100;
+}
+
+.semi-jumbotron.semi-jumbotron-register {
+    height: 100%;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    padding-top: 0;
+    padding-bottom: 0;
+    position: relative;
+    margin: 0;
+}
+
+.text-center1 {
+    margin-top: 90px;
+    text-align: center;
+}
+
+@media screen and (min-width: 380px) {
+    .text-center1 {
+        text-align: left;
+    }
+}
+
+/* =Media Queries
+-------------------------------------------------------------- */
+
+@media (max-width:767px) {
+    .text-center-xs {
+        text-align: center;
+    }
+    .mt10-xs {
+        margin-top: 10px;
+    }
+    .mt20-xs {
+        margin-top: 20px;
+    }
+    .mt30-xs {
+        margin-top: 30px;
+    }
+    .mt40-xs {
+        margin-top: 40px;
+    }
+    .mb10-xs {
+        margin-bottom: 10px;
+    }
+    .mb20-xs {
+        margin-bottom: 20px;
+    }
+    .mb30-xs {
+        margin-bottom: 30px;
+    }
+    .mb40-xs {
+        margin-bottom: 40px;
+    }
+    .section-padding {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .section-padding-top {
+        padding-top: 25px;
+    }
+    .navbar-default .navbar-nav>li>a {
+        line-height: 1;
+    }
+    .navbar-nav .open .dropdown-menu {
+        padding: 0;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a {
+        color: #fff;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a:focus,
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover {
+        color: rgba(255, 255, 255, 0.60);
+    }
+    .section-title h2 {
+        font-size: 34px;
+    }
+    .navbar-nav {
+        margin: 12px -15px;
+    }
+    #pricing .plan.featured {
+        -webkit-transform: scale(1.03);
+        -ms-transform: scale(1.03);
+        transform: scale(1.03);
+    }
+    .btn-category {
+        margin-bottom: 5px;
+    }
+    .pricing-clients {
+        width: 90px;
+    }
+    #our-process .process-box {}
+    .modal-header .close {
+        margin-right: -62px;
+    }
+    .breadcrumb-holder {
+        padding: 12px 0 12px 0;
+    }
+    .ticker {
+        height: 40px;
+    }
+    .ticker h1 {
+        height: 40px;
+    }
+    .big-logo {
+        font-size: 50px;
+    }
+    .jumbotron.jumbotron-register {
+        height: initial;
+    }
+    .jumbotron.jumbotron-register h1 {
+        font-size: 40px;
+    }
+}
+
+@media (min-width: 768px) {
+    .timeline:before {
+        left: 50%;
+    }
+    .timeline>li {
+        margin-bottom: 20px;
+        min-height: 100px;
+    }
+    .timeline>li .timeline-panel {
+        width: 41%;
+        float: left;
+        padding: 0 20px 20px 30px;
+        text-align: right;
+    }
+    .timeline>li .timeline-image {
+        width: 100px;
+        height: 100px;
+        left: 50%;
+        margin-left: -50px;
+    }
+    .timeline>li .timeline-image h4 {
+        font-size: 13px;
+        margin-top: 16px;
+        line-height: 18px;
+    }
+    .timeline>li.timeline-inverted>.timeline-panel {
+        float: right;
+        text-align: left;
+        padding: 0 30px 20px 20px;
+    }
+    .modal-dialog {
+        margin: 100px auto;
+    }
+    .navbar>.container .navbar-brand,
+    .navbar>.container-fluid .navbar-brand {
+        margin-left: 0;
+    }
+    .dropdown .dropdown-menu {
+        display: block;
+        opacity: 0;
+        -webkit-transition: all 200ms ease-in;
+        -moz-transition: all 200ms ease-in;
+        -ms-transition: all 200ms ease-in;
+        -o-transition: all 200ms ease-in;
+        transition: all 200ms ease-in;
+    }
+    .dropdown:hover .dropdown-menu {
+        display: block;
+        opacity: 1;
+    }
+}
+
+@media (min-width: 768px) and (max-width:992px) {
+    #our-process h2 {
+        font-size: 28px;
+    }
+    #our-process .process-content p {
+        width: 75%;
+        font-size: 16px;
+    }
+    .text-center-sm {
+        text-align: center;
+    }
+    .mt10-sm {
+        margin-top: 10px;
+    }
+    .mb10-sm {
+        margin-bottom: 10px;
+    }
+    .mt20-sm {
+        margin-top: 20px;
+    }
+    .mb20-sm {
+        margin-bottom: 20px;
+    }
+    .mt30-sm {
+        margin-top: 30px;
+    }
+    .mb30-sm {
+        margin-bottom: 30px;
+    }
+    .jumbotron.jumbotron-register h1 {
+        font-size: 45px;
+    }
+}
+
+@media (min-width:992px) {
+    .timeline>li {
+        min-height: 150px;
+    }
+    .timeline>li .timeline-panel {
+        padding: 0 20px 20px;
+    }
+    .timeline>li .timeline-image {
+        width: 150px;
+        height: 150px;
+        margin-left: -75px;
+    }
+    .timeline>li .timeline-image h4 {
+        font-size: 18px;
+        margin-top: 30px;
+        line-height: 26px;
+    }
+    .timeline>li.timeline-inverted>.timeline-panel {
+        padding: 0 20px 20px;
+    }
+}
+
+@media (min-width:1200px) {
+    .timeline>li {
+        min-height: 170px;
+    }
+    .timeline>li .timeline-panel {
+        padding: 0 20px 20px 30px;
+    }
+    .timeline>li .timeline-image {
+        width: 170px;
+        height: 170px;
+        margin-left: -85px;
+    }
+    .timeline>li .timeline-image h4 {
+        margin-top: 40px;
+    }
+    .timeline>li.timeline-inverted>.timeline-panel {
+        padding: 0 30px 20px 20px;
+    }
+}
+
+.descipt-people {
+    font-size: 12px;
+}
+
+.team-member-box {
+    width: 100%;
+    max-width: 185px;
+    display: inline-block;
+    /* height: 270px; */
+}
+
+.team-member-box h4 {
+    font-size: 14px;
+    margin: 20px 0 5px;
+}
+
+.btn-top {
+    font-size: 14px;
+    padding: 8px 25px;
+    background-color: transparent !important;
+    color: white;
+    border: 1px solid #fff;
+}
+
+.btn-top:hover {
+    background-color: #ff7143 !important;
+    border-color: #ff7143 !important;
+}
