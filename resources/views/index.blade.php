@@ -9,6 +9,7 @@
     @include ('page.header')
     @include ('page.vision')
     @include ('page.project')
+    @include ('page.table')
     @include ('page.robot')
     @include ('page.howitworks')
     @include ('page.blog')
