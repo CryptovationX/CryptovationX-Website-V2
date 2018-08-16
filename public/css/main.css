@@ -2451,3 +2451,13 @@ p.h6 {
     font-size: 14px;
     color: #7d7d7d;
 }
+
+.whitepaper-cover {
+    border-radius: 7px;
+    width: 70%;
+    margin: 20px 50px;
+}
+
+.whitepaper {
+    padding: 0;
+}
