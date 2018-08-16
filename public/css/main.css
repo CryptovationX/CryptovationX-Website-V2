@@ -935,13 +935,6 @@ span.portfolio-hover a {
     text-align: center;
 }
 
-.what {
-    font-size: 18px;
-    text-align: center;
-    /* border-bottom: 2px solid #cecece;
-    display: inline-block; */
-}
-
 .project-link {
     font-size: 14px;
     text-align: center;
@@ -2438,4 +2431,23 @@ p.h6 {
     color: #fff;
     font-family: "Montserrat", sans-serif;
     /* font-weight: 700; */
+}
+
+.heading-1-x {
+    font-family: 'Open Sans', sans-serif;
+    color: #424242;
+    font-weight: 700;
+    /* text-transform: uppercase; */
+    /* border-bottom: 1px solid #424242; */
+    padding-bottom: 4px;
+    /* display: inline-block; */
+    margin: 0;
+}
+
+.text-blog {
+    text-align: center;
+    margin: 10px;
+    /* font-weight: bold; */
+    font-size: 14px;
+    color: #7d7d7d;
 }

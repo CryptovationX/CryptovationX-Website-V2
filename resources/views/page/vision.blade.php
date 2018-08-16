@@ -2,7 +2,7 @@
         <div class="section">
             <div class="container">
                 <div class="col-xs-12 text-center">
-                    <h2>Project Summary</h2>
+                    <h1>Project Summary</h1>
                     <span class="section-divider mb15php"></span>
                 </div>
             </div>

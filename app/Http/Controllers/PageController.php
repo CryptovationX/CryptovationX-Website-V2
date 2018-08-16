@@ -27,4 +27,9 @@ class PageController extends Controller
     {
         return view('termsandconditions.termsandconditions');
     }
+
+    public function getAva()
+    {
+        return view('ava.ava');
+    }
 }

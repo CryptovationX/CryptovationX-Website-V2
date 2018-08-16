@@ -31,22 +31,31 @@
                         <div class="project-link">
                         <a href="https://arbot.cryptovation.co/" id="arbot-terminal-link" target="_blank">arbot.cryptovation.co</a>
                         </div>
-                        <a href=" " id="arbot-terminal-image" target="_blank">
+                        <a href="https://arbot.cryptovation.co/" id="arbot-terminal-image" target="_blank">
                             <img src="https://s3-ap-southeast-1.amazonaws.com/cryptovationx/public/Arbot44.png" id="arbot-terminal-image" alt="1" class="container img-responsive robot3">
                         </a>
-                        <p class="text-blog">Arbot team has research and develop 7 cryptocurrency arbitrage strategies. They also develop arbitrage
-                            trading terminal to serve crypto fund around the world.</p>
+                        <p class="text-blog">The CryptovationX Arbot research & development team has developed, tested and executed 7 cryptocurrency
+                                arbitrage market strategies alongside development of a proprietary arbitrage auto-trading terminal
+                                serving crypto-funds around the world.</p>
+                            <p style="text-align:center;">
+                                <a class="btn btnv-all mt-2" id="White Paper Top" href="https://arbot.cryptovation.co/" target="_blank"
+                                    role="button">More Info</a>
+                            </p>
                     </div>
                     <div class="col-xs-12 col-sm-6 portfolio-box mt10 mb10 ">
                         <h5 class="heading-1-x what">AVA Advisor </h5>
                         <div class="project-link">
                         <a href="http://ava.fund" id="ava-advisor-link" target="_blank">ava.fund</a>
                         </div>
-                        <a href=" " id="ava-advisor-image" target="_blank">
+                        <a href="/ava" id="ava-advisor-image" target="_blank">
                             <img src="https://s3-ap-southeast-1.amazonaws.com/cryptovationx/public/Ava44.png" id="ava-advisor-image" alt="4" class="container img-responsive robot3">
                         </a>
-                        <p class="text-blog">AVA Advisor team has provide the equity trading with automate and maximize the return on investment
-                            from financial market in China and Thailand with state of the art artificial intelligence.</p>
+                        <p class="text-blog">The AVA Advisor team has developed a state of the art artificial intelligence powered, auto-trading portfolio
+                                allocation platform to provide execution and re-weighting advise on Chinese and Thailand public market
+                                equities to maximize investment returns.</p>
+                            <p style="text-align:center;">
+                                <a class="btn btnv-all mt-2" id="White Paper Top" href="/ava" target="_blank" role="button">More Info</a>
+                            </p>
                     </div>
                     <!-- /.column -->
                 </div>

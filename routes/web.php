@@ -28,6 +28,6 @@ Route::post('/signoutt', 'ShowController@signout')->name('signout');
 Route::get('/signoutt', 'ShowController@signout2')->name('signout.get');
 
 Route::get('/firstsignon/{token}', 'SignupController@signup');
-
+Route::get('/ava', 'PageController@getAva');
 // Route::get('test', 'TestController@test');
 // Route::get('addtoken', 'CXAHistoryController@addToken');
