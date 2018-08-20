@@ -1,4 +1,4 @@
-<div class="bg-cxa">
+<div class="">
     <section id="part" class="container">
         <div class="section">
             <div class="row">

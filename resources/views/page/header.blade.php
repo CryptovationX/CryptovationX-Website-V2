@@ -5,10 +5,9 @@
 <!-- End Google Tag Manager (noscript) -->
 
 <!-- Begin Jumbotron -->
-
 <div class="jumbotron jumbotron-main background-white" id="homey">
-    <div id="particles-js" class="landingpage-top"></div>
-
+    <div id="particles-js" class="landingpage-top "></div>
+    <script type="text/javascript" src="js/app.js"></script>
     <div class="container center-vertically-holder center-top top-mobile">
         <div class="row">
             <div class="col-md-6 col-xl-6 col-sm-6 mt-top">

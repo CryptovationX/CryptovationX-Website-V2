@@ -6,7 +6,6 @@
                 <span class="section-divider"></span> 
             </div>
         </div>
-        <div class="row mb-5">
             <div class="col-xs-12">
                 <ul class="card-member">
                         <li>

@@ -1009,20 +1009,6 @@ span.portfolio-hover a {
     }
 }
 
-.table-bg {
-    background-position: center;
-    background-image: url(/images/cxaToken.png);
-    background-repeat: no-repeat;
-}
-
-@media (min-width: 560px) {
-    .table-bg {
-        background-position: center;
-        background-image: url(/images/cxaToken.png);
-        background-repeat: no-repeat;
-    }
-}
-
 .yes {
     padding: 1px 5px;
     font-size: 22px;
@@ -1709,7 +1695,7 @@ a {
 }
 
 .navbar-shadow {
-    box-shadow: 5px 9px 25px 0 rgba(0, 0, 0, 0.05);
+    box-shadow: 3px 3px 3px 0 rgba(0, 0, 0, 0.05);
 }
 
 nav.navbar {
@@ -1799,12 +1785,6 @@ p.h6 {
     font-size: 20px;
 }
 
-#particles-js {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-}
-
 .whitepaper-btn a {
     border: solid 1px #aba2a2;
     border-radius: 15px;
@@ -1843,29 +1823,47 @@ p.h6 {
     margin: 0;
 }
 
-#particles-js {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    /* z-index: -1; */
-    /* background-image: url("../images/top4.jpg");
-    background-repeat: no-repeat;
-    background-size:cover; */
-    /* background-position: 50% 50%;  */
-    /* background: #6819e8; */
-    /* Old browsers */
-    /* background: -moz-linear-gradient(left, #6819e8 0%, #7437d0 35%, #615fde 68%, #6980f2 100%); */
-    /* FF3.6-15 */
-    /* background: -webkit-linear-gradient(left, #6819e8 0%, #7437d0 35%, #615fde 68%, #6980f2 100%); */
-    /* Chrome10-25,Safari5.1-6 */
-    /* background: linear-gradient(to right, #6819e8 0%, #7437d0 35%, #615fde 68%, #6980f2 100%); */
-    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    /* filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6819e8', endColorstr='#6980f2', GradientType=1); */
-    /* IE6-9 */
+canvas{ 
+	display: block;
+	 vertical-align: bottom; 
 }
 
+#particles-js{ 
+	position:absolute; 
+	width: 100%; 
+	height: 100%; 
+	background-color: #232741; 
+	background-image: url("https://s3-ap-southeast-1.amazonaws.com/cryptovationx/public/pinbg.jpg"); 
+	background-repeat: no-repeat; background-size: 100%; 
+	background-position: 50% 50%; } /* ---- stats.js ---- */ 
+
+.count-particles{ 
+	background: #000022; 
+	position: absolute; 
+	top: 48px; 
+	left: 0; width: 80px; color: #13E8E9; font-size: .8em; text-align: left; 
+	text-indent: 4px; line-height: 14px; padding-bottom: 2px; font-family: Helvetica, Arial, sans-serif; font-weight: bold; 
+} 
+
+
+.js-count-particles{ 
+	font-size: 1.1em;
+	 }
+
+#stats, .count-particles{ 
+	-webkit-user-select: none; margin-top: 5px; margin-left: 5px; 
+} 
+
+#stats{ 
+	border-radius: 3px 3px 0 0; overflow: hidden; 
+}
+
+.count-particles{
+ border-radius: 0 0 3px 3px;
+ }
+
 .landingpage-top {
-    background-image: url(https://s3-ap-southeast-1.amazonaws.com/cryptovationx/public/pinbg.jpg);
+   
     background-color: #090c1b;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1932,6 +1930,10 @@ p.h6 {
 
 #homey {
     padding: 0px;
+}
+
+.padding-0 {
+    padding: 0px !important;
 }
 
 .border-image {
@@ -2462,3 +2464,63 @@ p.h6 {
     height: 234.94px;
     width: 100%;
   }
+
+
+.background-apple {
+    background-image: url(https://s3-ap-southeast-1.amazonaws.com/cryptovationx/public/background/token-l.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.background-apple2 {
+    background-image: url(https://s3-ap-southeast-1.amazonaws.com/cryptovationx/public/bgcxa3.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.background-arbi-r {
+    background-image: url(https://s3-ap-southeast-1.amazonaws.com/cryptovationx/public/background/arbi-bg-r.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.background-arbi-l {
+    background-image: url(https://s3-ap-southeast-1.amazonaws.com/cryptovationx/public/background/arbi-bg-l.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.background-specto-r {
+    background-image: url(https://s3-ap-southeast-1.amazonaws.com/cryptovationx/public/background/specto-bg-r.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.background-specto-l {
+    background-image: url(https://s3-ap-southeast-1.amazonaws.com/cryptovationx/public/background/specto-bg-l.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.background-broca-r {
+    background-image: url(https://s3-ap-southeast-1.amazonaws.com/cryptovationx/public/background/broca-bg-r.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.background-broca-l {
+    background-image: url(https://s3-ap-southeast-1.amazonaws.com/cryptovationx/public/background/broca-bg-l.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.background2 {
+    background-image: url(https://s3-ap-southeast-1.amazonaws.com/cryptovationx/public/bgfix.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.table-bg {
+    background-color: transparent !important;
+}
+

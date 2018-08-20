@@ -1,5 +1,5 @@
-<section id="work" class="container background-white">
-    <div class="container-fluid">
+<section id="work" class="container">
+    <div class="container-fluid table-bg">
         
             <div class="col-xs-12 section">
                 <h1 class="text-center">Table of Feature Accessibility</h2>

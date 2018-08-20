@@ -1,5 +1,4 @@
-
-<section id="timeline" class=" bg-fix section-padding-top">
+<section id="timeline" class=" bg-fix section-padding-top background-arbi-r">
     <div class="container ">
         <div class="row">
             <div class="col-12 section-title text-center top-x bottomReveal">
