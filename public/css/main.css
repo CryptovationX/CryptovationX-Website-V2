@@ -782,9 +782,7 @@ footer a .btn-x-footer {
 /* =Work
 -------------------------------------------------------------- */
 
-#theworks .mix {
-    display: none;
-}
+
 
 #thework .mix {
     display: none;
@@ -807,9 +805,7 @@ footer a .btn-x-footer {
     opacity: 1;
 }
 
-#theworks .portfolio-box:hover span.portfolio-hover {
-    opacity: 1;
-}
+
 
 span.portfolio-hover {
     color: #fff;
@@ -2461,3 +2457,10 @@ p.h6 {
 .whitepaper {
     padding: 0;
 }
+
+.image-holder {
+    background-size: cover;
+    background-position: center center;
+    height: 234.94px;
+    width: 100%;
+  }
