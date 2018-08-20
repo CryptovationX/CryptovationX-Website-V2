@@ -2459,8 +2459,6 @@ p.h6 {
 }
 
 .image-holder {
-    background-size: cover;
-    background-position: center center;
     height: 234.94px;
     width: 100%;
   }
