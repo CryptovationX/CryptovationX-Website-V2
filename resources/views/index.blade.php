@@ -14,6 +14,7 @@
     @include ('page.howitworks')
     @include ('page.blog')
     @include ('page.timeline')
+    @include ('page.token')
     @include ('page.press')
     @include ('page.partner')
     @include ('page.team_main')
