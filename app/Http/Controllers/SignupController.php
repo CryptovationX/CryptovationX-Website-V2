@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use CryptovationX\Knowyc;
 use Mail;
 use CryptovationX\Mail\Ais;
+use CryptovationX\CXAHistory;
 
 class SignupController extends Controller
 {
@@ -40,7 +41,16 @@ class SignupController extends Controller
         $users = $this->v4();
         $para = array_merge($request->all(), ['account_id' => $random, 'users' => $users]);
 
-        Knowyc::create($para);
+        $account = Knowyc::create($para);
+
+        $knowyc_id = $account->id;
+        $type = "Airdrop";
+        $amount_usd = 0;
+        $token = 1000;
+        $total_token = 1000;
+        $bonus = 0;
+        $data = compact('knowyc_id', 'type', 'amount_usd', 'token', 'total_token', 'bonus');
+        CXAHistory::create(compact('knowyc_id', 'type', 'amount_usd', 'token', 'total_token', 'bonus'));
 
         Mail::to($request->email)->send(new Ais($users));
     }
