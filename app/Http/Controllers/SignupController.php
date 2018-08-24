@@ -9,6 +9,11 @@ use CryptovationX\Mail\Ais;
 
 class SignupController extends Controller
 {
+    public function getIndex()
+    {
+        return view('auth.ais_register');
+    }
+
     public function signup($token)
     {
         $info = Knowyc::where('pic_passport', $token)->first();
