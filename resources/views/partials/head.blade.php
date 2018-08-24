@@ -49,5 +49,6 @@
     <link href="{{ asset('/css/ionicons.min.css') }}" rel="stylesheet">
     <link href="{{ asset('/css/navbar.css') }}" rel="stylesheet">
     <link href="{{ asset('/css/transaction.css') }}" rel="stylesheet">
+    <link href="{{ asset('/css/form.css') }}" rel="stylesheet">
 
     

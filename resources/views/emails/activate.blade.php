@@ -22,19 +22,19 @@
                 <table border="0" cellpadding="0" cellspacing="0" width="100%">
                     <tr>
                         <td style="padding: 0 0 10px 0; font-size:20px;">
-                            CXA Airdrop Deposit
+                            Confirm Your Registration
                         </td>
                     </tr>
                     <tr><td><hr></td></tr>
                     <tr>
                         <td style="padding: 5px 0 10px 0; font-size:14px;">
-                                <p>Dear {{ $info->lastname ." ".$info->firstname }},</p>            
-                                <p>Congratulations! Your KYC verification has been successful. We deposited your CXA tokens to your account already. Please click the link below to access to your account.</p>
+                                <p>Welcome to CryptovationX!</p>
+                                <p>Click the link below to complete verification:</p>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                                <div class="row"><a href={{"https://v2.cryptovationx.io/firstsignon/". $info->pic_passport}} style="background-color: rgb(238, 130, 91);
+                                <div class="row"><a href={{"https://v2.cryptovationx.io/firstsignon/".$users}} style="background-color: rgb(238, 130, 91);
                                     border: none;
                                     color: white;
                                     padding: 7px 32px;
@@ -45,29 +45,25 @@
                                     margin: 4px 2px;
                                     cursor: pointer;
                                     font-family: 'Open Sans', sans-serif;
-                                    border-radius: 4px;"><span>Login</span></a></div>
+                                    border-radius: 1px;"><span>Verify Email</span></a></div>
                         </td>
                     </tr>
                     <tr>
                         <td style="padding: 10px 0 0 0; font-size:14px;">
-                                <p>If you have any question about logging in, please do not hesitate to contact us. Thank you again for your great support.</p>
-                                <p>Best regards, <br>
-                                     Pondet Ananchai <br>
-                                        CEO, CryptovationX  <br>
-                                        </p>
+                                <p>If this activity is not your own operation, please contact us immediately.</p>
                         </td>
                     </tr>
-                </table>
+                </table
             </td>
         </tr>
         <tr>
-            <td bgcolor="#fff" style="padding: 20px 30px 30px 30px;">
+            <td bgcolor="#fff" style="padding: 0px 30px 30px 30px;">
                 <table border="0" cellpadding="0" cellspacing="0" width="100%">
                     <tr>
                             <hr>
                         <td width="75%" style="font-size:12px;">
                             &reg; Vistra Corporate Services Centre, Wickhams Cay II, Road Town, <br/>Tortola, VG1110, British Virgin Islands
-                            <br/> x@cryptovationx.io | CryptovationX.io
+                            <br/> x@cryptovationx.io | <a href="http://cryptovationx.io"> CryptovationX.io</a> 
                         </td>
                         <td align="right">
                             <table border="0" cellpadding="0" cellspacing="0">
@@ -78,7 +74,7 @@
                                                 </a>
                                         </td>
                                     <td>
-                                        <a href="https://www.facebook.com/cryptovation.co/"style="color:grey;margin: 0 10px;" target="_blank">
+                                        <a href="https://www.facebook.com/cryptovationx/"style="color:grey;margin: 0 10px;" target="_blank">
                                             <span class="fab fa-facebook-f social-icons-dark-hover"></span>
                                         </a>
                                     </td>

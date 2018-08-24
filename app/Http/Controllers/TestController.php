@@ -15,6 +15,8 @@ class TestController extends Controller
 
     public function test()
     {
-        \Iseed::generateSeed('c_x_a_histories');
+        // \Iseed::generateSeed('c_x_a_histories');
+        return view('auth.ais_register');
+        // return view('emails.activate');
     }
 }

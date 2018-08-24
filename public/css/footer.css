@@ -149,3 +149,19 @@
 .footer_column a:hover{
     color:white;
 }
+
+.vhh {
+    height: 80vh;
+}
+
+@media screen and (max-height:568px){
+    .vhh {
+        height: 90vh;
+    }
+}
+
+@media screen and (max-height:667px){
+    .fixed-bottom {
+        position: relative;
+      }
+}

@@ -4,6 +4,8 @@
 <head>
     @include("partials.head")
     <title>CryptovationX | @yield('title')</title>
+    <meta name="csrf-token"> content="{{ csrf_token() }}"
+ 
     @yield('style')
 </head>
 
@@ -20,7 +22,7 @@
 
     <div id="particles-js"></div>
     
-    @include("layouts.balance_navbar")
+    @include("layouts.register_navbar")
 
     @yield("content") 
     
