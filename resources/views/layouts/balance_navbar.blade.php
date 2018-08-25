@@ -7,9 +7,9 @@
         <div class="nav_padding">
         <span class="far fa-clock"></span>&nbsp; <span id="clock">@{{ date }} | @{{ time }}</span>
         <span id="order">
-            <span>Bitcoin $@{{Math.round(orderbooks.Binance.btcusd.bid*10000)/10000}} &nbsp; | &nbsp;</span>
-            <span>Ethereum $@{{Math.round(orderbooks.Binance.ethusd.bid*10000)/10000}} &nbsp; | &nbsp;</span>
-            <span>Ripple $@{{Math.round(orderbooks.Binance.xrpusd.bid*10000)/10000}}</span>
+            <span>Bitcoin $@{{Math.round(orderbooks['Binance.com'].btcusd.bid*10000)/10000}} &nbsp; | &nbsp;</span>
+            <span>Ethereum $@{{Math.round(orderbooks['Binance.com'].ethusd.bid*10000)/10000}} &nbsp; | &nbsp;</span>
+            <span>Ripple $@{{Math.round(orderbooks['Binance.com'].xrpusd.bid*10000)/10000}}</span>
         </span>
         </div>
     </div>

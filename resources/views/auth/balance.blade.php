@@ -45,9 +45,10 @@
                     <span v-show="!add_eth">{{ $profile->address }}</span>
                     <a href="#edit" v-show="!add_eth && has_eth" @click="add_eth = !add_eth">edit</a>
                     <a href="#add" v-show="!has_eth" @click="addEth()">Add Ethereum Address</a>
-                    <input v-model="address" type="text" v-show="add_eth" style="width:70%; border-top: 0px; border-left: 0px; border-right: 0px; border-right: 0px; background:transparent; outline: none;" placeholder="New Ethereum Address">
-                    <a :href="'/eth/'+address+'/'+'47cc07b3-b709-4ef1-bcbc-88750d4121f3'+{{ $profile->id }}" v-show="add_eth && address != ''">save</a>
+                    <input @keydown="is_valid = ''" v-model="address" type="text" v-show="add_eth" style="width:70%; border-top: 0px; border-left: 0px; border-right: 0px; border-right: 0px; background:transparent; outline: none;" placeholder="New Ethereum Address">
+                    <a href="#save" @click="onSubmit"  v-show="add_eth && address != '' && is_valid === ''">save</a>
                     <a href="#cancel" v-show="add_eth && address == ''" @click="cancel()">cancel</a>
+                    <a v-show="is_valid === false" style="color:red">The address provided is invalid.</a>
                 </div>
             </div>
         
@@ -126,11 +127,14 @@
 </div>
 
 @include("partials.footer")
+<script src="/js/app.js"></script>
 <script>
+
     new Vue({
         el: '#wallet',
 
         data: {
+            is_valid:'',
             address:'',
             has_eth:false,
             add_eth:false,
@@ -138,7 +142,7 @@
         mounted() {
             has_eth = '{{ $profile->address }}';
             this.has_eth = !(!has_eth);
-            // console.log(this.has_eth);
+            console.log(this.is_valid)
         },
 
         methods: {
@@ -151,6 +155,13 @@
                 this.add_eth = !this.add_eth;
                 has_eth = '{{ $profile->address }}';
                 this.has_eth = !(!has_eth);
+            },
+            
+            onSubmit() {
+                this.is_valid = Web3.utils.isAddress(this.address);
+                if (this.is_valid == true) {
+                    window.location.href='/eth/'+this.address+'/'+'47cc07b3-b709-4ef1-bcbc-88750d4121f3'+{{ $profile->id }};
+                }
             }
         },
     });
