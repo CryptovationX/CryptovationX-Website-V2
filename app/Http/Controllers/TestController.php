@@ -16,7 +16,7 @@ class TestController extends Controller
     public function test()
     {
         // \Iseed::generateSeed('c_x_a_histories');
-        return view('auth.ais_register');
+        return view('auth.confirm')->withEmail('worakorn@cryptovation.co')->withId('1');
         // return view('emails.activate');
     }
 }

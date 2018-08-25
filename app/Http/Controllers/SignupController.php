@@ -53,6 +53,16 @@ class SignupController extends Controller
         CXAHistory::create(compact('knowyc_id', 'type', 'amount_usd', 'token', 'total_token', 'bonus'));
 
         Mail::to($request->email)->send(new Ais($users));
+
+        return view('auth.confirm')->withEmail($request->email)->withId($knowyc_id);
+    }
+
+    public function resendmail($id)
+    {
+        $users = Knowyc::find($id);
+        Mail::to($users->email)->send(new Ais($users->users));
+
+        return view('auth.confirm')->withEmail($users->email)->withId($id);
     }
 
     public static function v4()

@@ -40,7 +40,7 @@
             <a class="nav-link mr10 ml10 nav-front {{ Request::is('profile') ? "active" : "" }}" href="/profile">Profile <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-            <a class="nav-link mr10 ml10 nav-front {{ Request::is('balance') ? "active" : "" }}" href="/balance">Fund <span class="sr-only">(current)</span></a>
+            <a class="nav-link mr10 ml10 nav-front {{ Request::is('balance') ? "active" : "" }}" href="/balance">Wallet <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
 
