@@ -138,7 +138,7 @@
         mounted() {
             has_eth = '{{ $profile->address }}';
             this.has_eth = !(!has_eth);
-            console.log(this.has_eth);
+            // console.log(this.has_eth);
         },
 
         methods: {
@@ -149,7 +149,8 @@
 
             cancel() {
                 this.add_eth = !this.add_eth;
-                this.has_eth = false;
+                has_eth = '{{ $profile->address }}';
+                this.has_eth = !(!has_eth);
             }
         },
     });
