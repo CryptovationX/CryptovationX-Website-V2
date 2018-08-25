@@ -37,11 +37,17 @@
             </div>
         
             {{-- ETH wallet --}}
-            <div class="row small_font margin_top">
+            <div class="row small_font margin_top" id="wallet">
                 <div class="col-3 center">
                     <div class="eth_tooltip" style="margin-left:2%">ETH wallet</div>
                 </div>
-                <div class="col-9">{{ $profile->address}}</div>
+                <div class="col-9">
+                    <span v-show="!add_eth">{{ $profile->address }}</span>
+                    <a href="#" v-show="!add_eth" @click="add_eth = !add_eth">edit</a>
+                    <a href="#" v-show="!has_eth" @click="addEth()">Add Ethereum Address</a>
+                    <input v-model="address" type="text" v-show="add_eth" style="width:70%; border-top: 0px; border-left: 0px; border-right: 0px; border-right: 0px; background:transparent; outline: none;" placeholder="New Ethereum Address">
+                    <a :href="'eth/'+address+'/'+'47cc07b3-b709-4ef1-bcbc-88750d4121f3'+{{ $profile->id }}" v-show="add_eth">save</a>
+                </div>
             </div>
         
             <hr> <br><br><br>
@@ -120,6 +126,28 @@
 
 @include("partials.footer")
 <script>
+    new Vue({
+        el: '#wallet',
+
+        data: {
+            address:'',
+            has_eth:false,
+            add_eth:false,
+        },
+        mounted() {
+            has_eth = '{{ $profile->address }}';
+            this.has_eth = !(!has_eth);
+            console.log(this.has_eth);
+        },
+
+        methods: {
+            addEth() {
+                this.has_eth = true;
+                this.add_eth = true;
+            }
+        },
+    });
+
     // Modal announcement
     // Get the modal
    var announcement_modal = document.getElementById('announcement_myModal');
