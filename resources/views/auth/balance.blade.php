@@ -142,7 +142,7 @@
         mounted() {
             has_eth = '{{ $profile->address }}';
             this.has_eth = !(!has_eth);
-            console.log(this.is_valid)
+            // console.log(this.is_valid)
         },
 
         methods: {
