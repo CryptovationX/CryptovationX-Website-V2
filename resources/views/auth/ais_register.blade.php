@@ -35,7 +35,7 @@
                 </div>
                 <div class="row">
                     <div class="col-md-6" style="padding-top: 2%">
-                        <input type="text" name="facebook" placeholder="Facebook (Profile Link)" style="background-color:transparent;" class="input" v-model="facebook" pattern="^(http|https)://f" data-parsley-pattern-message="Format 'https://www.facebook.com/{your_id}'">
+                        <input type="text" name="facebook" placeholder="Facebook (Profile Link)" style="background-color:transparent;" class="input" v-model="facebook" pattern="^(http|https)://f" data-parsley-pattern-message="Format 'https://www.facebook.com/{your_id}'" required>
                     </div>
                 </div>                   
                 

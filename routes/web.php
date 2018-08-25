@@ -32,5 +32,5 @@ Route::post('/aisdc', 'SignupController@ais')->name('register.ais');
 Route::get('/aisdc', 'SignupController@getIndex');
 Route::get('{id}/aisdc', 'SignupController@resendmail');
 
-Route::get('test', 'TestController@test');
+// Route::get('test', 'TestController@test');
 // Route::get('addtoken', 'CXAHistoryController@addToken');
