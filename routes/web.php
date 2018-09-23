@@ -33,5 +33,6 @@ Route::get('/aisdc', 'SignupController@getIndex');
 Route::get('{id}/aisdc', 'SignupController@resendmail');
 
 Route::get('/eth/{address}/{profile}', 'KnowycController@eth');
+Route::get('/contact-us', 'PageController@getContactus');
 // Route::get('test', 'TestController@test');
 // Route::get('addtoken', 'CXAHistoryController@addToken');

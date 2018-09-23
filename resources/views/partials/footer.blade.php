@@ -28,6 +28,9 @@
                     <a href="https://www.facebook.com/cryptovation.co/" target="_blank">
                         <span class="fab fa-facebook-f social-icons-dark-hover   mfooter footer_width"></span>
                     </a>
+                    <a href="https://www.reddit.com/r/CryptovationX/" target="_blank">
+                        <i id="ig-footer" class="fab fa-reddit-alien social-icons-dark-hover  m50 mfooter"></i>
+                    </a>
 
                 </div>
             </div>
@@ -48,6 +51,9 @@
                     </div>
                     <div class="col-4 footer_column">
                         <div style="padding-bottom:15px;">About</div>
+                        <div style="padding-bottom:5px;">
+                            <a target="_blank" href="{{ action('PageController@getContactus') }}">Contact us</a>
+                        </div>
                         <div style="padding-bottom:5px;">
                             <a target="_blank" href="https://arbot.cryptovation.co/">Arbot Terminal</a>
                         </div>
@@ -80,9 +86,11 @@
 <!-- /.footer -->
 <div class="row">
     <div class="col-sm-12 col-sm-offset-2 text-small copyright_row">
-        {{--
-        <a href="https://cryptovationx.io/terms-conditions" target="_blank" class="terms copyright">Terms and Conditions</a> --}}
+        
+        <a href="https://cryptovationx.io/terms-conditions" target="_blank" class="terms copyright">Terms and
+            Conditions</a>
         <div class="terms copyright">&copy; 2018 Cryptovation. All Right Reserved</div>
     </div>
-    <!-- /.column -->
+    
 </div>
+<!-- /.column -->

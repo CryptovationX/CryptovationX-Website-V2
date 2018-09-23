@@ -10,7 +10,7 @@ class PageController extends Controller
     {
         $this->middleware('auth');
     }
-    
+
     public function getIndex()
     {
         $total = 0;
@@ -23,5 +23,11 @@ class PageController extends Controller
     public function getTermsandconditions()
     {
         return view('termsandconditions.termsandconditions');
+    }
+
+    public function getContactus()
+    {
+
+        return view('contactus.test');
     }
 }
